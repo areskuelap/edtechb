@@ -1,5 +1,4 @@
 import React from 'react';
-import Head from "next/head";
 import Carousel from './Carousel';
 import {useEffect} from "react";
 import Destinations from './Destinations';
@@ -16,13 +15,11 @@ import { WhatsAppWidget } from 'react-whatsapp-widget';
 import 'react-whatsapp-widget/dist/index.css';
 
 const Home = (props) => {
-
+  useEffect(() => {
+    document.title = "Amazonas Travel"
+  }, []);  
   return (   
     <div className=''>
-    <Head>
-    <title>Amazonas travel</title>
-    <link rel="icon" href="../../assets/logo.png" />
-    </Head>
         <Destinations/>
         <Hero/>
         <Banners/>
