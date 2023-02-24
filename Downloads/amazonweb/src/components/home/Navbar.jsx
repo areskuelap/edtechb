@@ -92,12 +92,12 @@ const Navbar = () => {
           <div className="pl-5"> 
               <ul>
                 <Link to="/luya"><li onClick={home}  className='text-base font-semibold text-gray-600 py-4'>Luya</li></Link>
-                <li className='text-base font-semibold text-gray-600 pb-4'>Chachapoyas</li>
-                <li className='text-base font-semibold text-gray-600 pb-4'>Rodríguez de Mendoza</li>
-                <li className='text-base font-semibold text-gray-600 pb-4'>Bongará</li>
-                <li className='text-base font-semibold text-gray-600 pb-4'>Condorcanqui</li>
-                <li className='text-base font-semibold text-gray-600 pb-4'>Bagua</li>
-                <li className='text-base font-semibold text-gray-600 pb-4'>Utcubamba</li>
+                <li onClick={home} className='text-base font-semibold text-gray-600 pb-4'>Chachapoyas</li>
+                <li onClick={home} className='text-base font-semibold text-gray-600 pb-4'>Rodríguez de Mendoza</li>
+                <li onClick={home} className='text-base font-semibold text-gray-600 pb-4'>Bongará</li>
+                <li onClick={home} className='text-base font-semibold text-gray-600 pb-4'>Condorcanqui</li>
+                <li onClick={home} className='text-base font-semibold text-gray-600 pb-4'>Bagua</li>
+                <li onClick={home} className='text-base font-semibold text-gray-600 pb-4'>Utcubamba</li>
               </ul>
           </div>
         </div>}
@@ -133,12 +133,12 @@ const Navbar = () => {
         <div className="pl-5"> 
               <ul>
                 <Link to="/adventure"><li onClick={home}  className='text-base font-semibold text-gray-600 py-4'>Adventure</li></Link>
-                <li className='text-base font-semibold text-gray-600 pb-4'>Business</li>
-                <li className='text-base font-semibold text-gray-600 pb-4'>Consumer</li>
+                <li onClick={home} className='text-base font-semibold text-gray-600 pb-4'>Business</li>
+                <Link to="/consumer"><li onClick={home} className='text-base font-semibold text-gray-600 pb-4'>Consumer</li></Link>
                 <Link to="/shopping"><li onClick={home}  className='text-base font-semibold text-gray-600 pb-4'>Shopping</li></Link>
-                <li className='text-base font-semibold text-gray-600 pb-4'>Festivals</li>
-                <li className='text-base font-semibold text-gray-600 pb-4'>Art</li>
-                <li className='text-base font-semibold text-gray-600 pb-4'>Cuisine</li>
+                <Link to="/festival"><li onClick={home} className='text-base font-semibold text-gray-600 pb-4'>Festivals</li></Link>
+                <Link to="/art"><li onClick={home} className='text-base font-semibold text-gray-600 pb-4'>Art</li></Link>
+                <Link to="/cuisine"><li onClick={home} className='text-base font-semibold text-gray-600 pb-4'>Gastronomy</li></Link>
               </ul>
           </div>          
         </div>}        
@@ -156,7 +156,7 @@ const Navbar = () => {
       )}
       </div>
       <div className='flex justify-center items-center'>
-        <img src="https://blogs.gestion.pe/e/anunciasluegoexistes/012-peru-logo-anterior.jpg" className='h-auto w-20 pt-5'/>
+        <img src="https://drive.google.com/uc?export=view&id=1GTPcDQ4HCCq5nC9ntlRPyrNrtYXvH6Om" className='h-auto w-20 pt-5'/>
       </div>
       <div className='flex justify-end items-center pr-4'>
         <MagnifyingGlassIcon className="text-gray-800 w-6" />
@@ -179,20 +179,20 @@ const Navbar = () => {
   <div className="">
     <nav className="flex pt-4 z-10">
       <div className='flex justify-center w-1/4'>
-      <Link to="/" ><img src="https://blogs.gestion.pe/e/anunciasluegoexistes/012-peru-logo-anterior.jpg" className="h-12 w-30"/> </Link>
+      <Link to="/" ><img src="https://drive.google.com/uc?export=view&id=1GTPcDQ4HCCq5nC9ntlRPyrNrtYXvH6Om" className="h-12 w-30"/> </Link>
       </div>
       <div className='w-2/4 flex justify-evenly'>
       <div>
       <span className="group relative inline-block">
         <button className="inline-flex text-lg text-black items-center border-white border hover:border-2 hover:border-b-red-500 rounded py-2 px-8 font-semibold">Destinations</button>
         <ul className="absolute hidden pt-1 text-gray-700 group-hover:block z-10">
-          <li className=""><Link to="/luya" className="whitespace-no-wrap block cursor-pointer rounded-t bg-gray-200 py-2 px-8 hover:bg-gray-400" >Luya</Link></li>
-          <li className=""><Link to="/luya" class="whitespace-no-wrap block cursor-pointer  bg-gray-200 py-2 px-8 hover:bg-gray-400" >Chachapoyas</Link></li>
-          <li className=""><Link to="/luya" class="whitespace-no-wrap block cursor-pointer   bg-gray-200 py-2 px-8 hover:bg-gray-400" >Rodriguez de Mendoza</Link></li>
-          <li className=""><Link to="/luya" class="whitespace-no-wrap block cursor-pointer   bg-gray-200 py-2 px-8 hover:bg-gray-400" >Bongará</Link></li>
-          <li className=""><Link to="/luya" class="whitespace-no-wrap block cursor-pointer  bg-gray-200 py-2 px-8 hover:bg-gray-400" >Condorcanqui</Link></li>
-          <li className=""><Link to="/luya" class="whitespace-no-wrap block cursor-pointer   bg-gray-200 py-2 px-8 hover:bg-gray-400" >Bagua</Link></li>
-          <li className=""><Link to="/luya" class="whitespace-no-wrap block cursor-pointer rounded-b  bg-gray-200 py-2 px-8 hover:bg-gray-400" >Utcubamba</Link></li>
+          <li className=""><Link to="/luya" className="whitespace-no-wrap block cursor-pointer rounded-t font-semibold hover:text-green-600 bg-gray-200 py-2 px-8 hover:bg-gray-100" >Luya</Link></li>
+          <li className=""><Link to="/luya" class="whitespace-no-wrap block cursor-pointer font-semibold hover:text-green-600 bg-gray-200 py-2 px-8 hover:bg-gray-100" >Chachapoyas</Link></li>
+          <li className=""><Link to="/luya" class="whitespace-no-wrap block cursor-pointer font-semibold hover:text-green-600  bg-gray-200 py-2 px-8 hover:bg-gray-100" >Rodriguez de Mendoza</Link></li>
+          <li className=""><Link to="/luya" class="whitespace-no-wrap block cursor-pointer font-semibold hover:text-green-600  bg-gray-200 py-2 px-8 hover:bg-gray-100" >Bongará</Link></li>
+          <li className=""><Link to="/luya" class="whitespace-no-wrap block cursor-pointer font-semibold hover:text-green-600 bg-gray-200 py-2 px-8 hover:bg-gray-100" >Condorcanqui</Link></li>
+          <li className=""><Link to="/luya" class="whitespace-no-wrap block cursor-pointer font-semibold hover:text-green-600  bg-gray-200 py-2 px-8 hover:bg-gray-100" >Bagua</Link></li>
+          <li className=""><Link to="/luya" class="whitespace-no-wrap block cursor-pointer font-semibold hover:text-green-600 rounded-b  bg-gray-200 py-2 px-8 hover:bg-gray-100" >Utcubamba</Link></li>
         </ul>
       </span>
       </div>
@@ -200,10 +200,10 @@ const Navbar = () => {
       <span className="group relative inline-block">
         <button className="inline-flex text-lg text-black items-center border-white border hover:border-2 hover:border-b-red-500 rounded py-2 px-8 font-semibold">Plan your trip</button>
         <ul className="absolute hidden pt-1 text-gray-700 group-hover:block z-10">
-          <li className=""><Link to="/getting" class="whitespace-no-wrap block cursor-pointer  rounded-t bg-gray-200 py-2 px-8 hover:bg-gray-400" >Getting Started</Link></li>
-          <li className=""><Link to="/transportation" class="whitespace-no-wrap block cursor-pointer  bg-gray-200 py-2 px-8 hover:bg-gray-400" >Transportation</Link></li>
-          <li className=""><Link to="/first" className="whitespace-no-wrap block cursor-pointer  bg-gray-200 py-2 px-8 hover:bg-gray-400" >Must-know</Link></li>
-          <li className=""><Link to="/faq" class="whitespace-no-wrap block cursor-pointer  rounded-b bg-gray-200 py-2 px-8 hover:bg-gray-400" >FAQ</Link></li>
+          <li className=""><Link to="/getting" class="whitespace-no-wrap block cursor-pointer font-semibold hover:text-green-600 rounded-t bg-gray-200 py-2 px-8 hover:bg-gray-100" >Getting Started</Link></li>
+          <li className=""><Link to="/transportation" class="whitespace-no-wrap block cursor-pointer font-semibold hover:text-green-600 bg-gray-200 py-2 px-8 hover:bg-gray-100" >Transportation</Link></li>
+          <li className=""><Link to="/first" className="whitespace-no-wrap block cursor-pointer font-semibold hover:text-green-600 bg-gray-200 py-2 px-8 hover:bg-gray-100" >Must-know</Link></li>
+          <li className=""><Link to="/faq" class="whitespace-no-wrap block cursor-pointer font-semibold hover:text-green-600 rounded-b bg-gray-200 py-2 px-8 hover:bg-gray-100" >FAQ</Link></li>
         </ul>
       </span>
       </div>
@@ -211,13 +211,13 @@ const Navbar = () => {
       <span className="group relative inline-block">
         <button className="inline-flex text-lg text-black items-center border-white border hover:border-2 hover:border-b-red-500 rounded py-2 px-8 font-semibold">To do</button>
         <ul className="absolute hidden pt-1 text-gray-700 group-hover:block z-10">
-          <li className=""><Link to="/adventure" class="whitespace-no-wrap block cursor-pointer  rounded-t bg-gray-200 py-2 px-8 hover:bg-gray-400" >Adventure</Link></li>
-          <li className=""><Link to="/adventure" class="whitespace-no-wrap block cursor-pointer  bg-gray-200 py-2 px-8 hover:bg-gray-400" >Business</Link></li>
-          <li className=""><Link to="/adventure" class="whitespace-no-wrap block cursor-pointer  rounded-b bg-gray-200 py-2 px-8 hover:bg-gray-400" >Consumer</Link></li>
-          <li className=""><Link to="/shopping" className="whitespace-no-wrap cursor-pointer block rounded-t bg-gray-200 py-2 px-8 hover:bg-gray-400">Shopping</Link></li>
-          <li className=""><Link to="/shopping" class="whitespace-no-wrap cursor-pointer  block bg-gray-200 py-2 px-8 hover:bg-gray-400" >Festivals</Link></li>
-          <li className=""><Link to="/shopping" class="whitespace-no-wrap cursor-pointer  block bg-gray-200 py-2 px-8 hover:bg-gray-400" >Art</Link></li>
-          <li className=""><Link to="/shopping" class="whitespace-no-wrap cursor-pointer  block rounded-b bg-gray-200 py-2 px-8 hover:bg-gray-400" >Cuisine</Link></li>
+          <li className=""><Link to="/adventure" class="whitespace-no-wrap block cursor-pointer font-semibold hover:text-green-600 rounded-t bg-gray-200 py-2 px-8 hover:bg-gray-100" >Adventure</Link></li>
+          <li className=""><Link to="/adventure" class="whitespace-no-wrap block cursor-pointer font-semibold hover:text-green-600 bg-gray-200 py-2 px-8 hover:bg-gray-100" >Business</Link></li>
+          <li className=""><Link to="/consumer" class="whitespace-no-wrap block cursor-pointer font-semibold hover:text-green-600 bg-gray-200 py-2 px-8 hover:bg-gray-100" >Consumer</Link></li>
+          <li className=""><Link to="/shopping" className="whitespace-no-wrap cursor-pointer font-semibold hover:text-green-600 block bg-gray-200 py-2 px-8 hover:bg-gray-100">Shopping</Link></li>
+          <li className=""><Link to="/festival" class="whitespace-no-wrap cursor-pointer font-semibold hover:text-green-600 block bg-gray-200 py-2 px-8 hover:bg-gray-100" >Festivals</Link></li>
+          <li className=""><Link to="/art" class="whitespace-no-wrap cursor-pointer font-semibold hover:text-green-600 block bg-gray-200 py-2 px-8 hover:bg-gray-100" >Art</Link></li>
+          <li className=""><Link to="/cuisine" class="whitespace-no-wrap cursor-pointer font-semibold hover:text-green-600 block rounded-b bg-gray-200 py-2 px-8 hover:bg-gray-100" >Gastronomy</Link></li>
         </ul>
       </span>
       </div>
@@ -228,7 +228,7 @@ const Navbar = () => {
       </div>
     </div>
     <div className=' flex justify center w-1/4'>
-            <input className='py-2 w-2/3 font-semibold text-gray-400 border border-gray-400 rounded-xl pl-4 hover:border hover:border-green-500' placeholder='Search...'/>
+            <input className='py-2 w-2/3 font-semibold outline-none text-gray-400 border border-gray-400 rounded-xl pl-4 hover:border hover:border-green-500' placeholder='Search...'/>
           </div>
     </nav>
   </div>

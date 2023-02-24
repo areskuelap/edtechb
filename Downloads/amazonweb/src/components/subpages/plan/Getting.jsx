@@ -3,54 +3,21 @@ import Footer from "../../home/Footer";
 
 export default function Getting() {
 
-  const images = [
-    {
-      original: 'https://wallpapercave.com/dwp1x/wp1815135.jpg',
-      thumbnail: 'https://picsum.photos/id/1018/250/150/',
-    },
-    {
-      original: 'https://wallpapercave.com/dwp1x/wp1815136.jpg',
-      thumbnail: 'https://picsum.photos/id/1015/250/150/',
-    },
-    {
-      original: 'https://wallpapercave.com/dwp1x/wp1815137.jpg',
-      thumbnail: 'https://picsum.photos/id/1019/250/150/',
-    },
-    {
-      original: 'https://wallpapercave.com/dwp1x/wp1815138.jpg',
-      thumbnail: 'https://picsum.photos/id/1018/250/150/',
-    },
-    {
-      original: 'https://wallpapercave.com/dwp1x/wp1815139.jpg',
-      thumbnail: 'https://picsum.photos/id/1015/250/150/',
-    },
-    {
-      original: 'https://wallpapercave.com/dwp1x/wp1815140.jpg',
-      thumbnail: 'https://picsum.photos/id/1019/250/150/',
-    },
-    {
-      original: 'https://wallpapercave.com/dwp1x/wp1815141.jpg',
-      thumbnail: 'https://picsum.photos/id/1018/250/150/',
-    },
-    {
-      original: 'https://wallpapercave.com/dwp1x/wp1815142.jpg',
-      thumbnail: 'https://picsum.photos/id/1015/250/150/',
-    },
-    {
-      original: 'https://picsum.photos/id/1019/1000/600/',
-      thumbnail: 'https://picsum.photos/id/1019/250/150/',
-    },
-  ];
-
     return (
         <div>
-            <div className='py-10'>
-        <ImageGallery showFullscreenButton={false} showBullets={true} showPlayButton={false} showThumbnails={false} showNav={false}  className="w-full" items={images} autoPlay={true} />
-    </div>
+        <div className='bg-[url("https://drive.google.com/uc?export=view&id=1tQzmi1wTJgr7lRnvPlTfanXnb7OL9_V5")] bg-cover bg-center bg-no-repeat'>
+        <div className='bg-gradient-to-l from-gray-500 to-transparent'>
+          <p className='text-lg font-semibold pl-10 py-3'>Official guide for traveling Amazonas- Travel Amazonas</p>
+        </div>
+        <div className='pt-24 pb-56'>
+        <p className='text-4xl pl-10 font-semibold'>Wonder around</p>
+        <p className='text-xl py-3 pl-10 font-semibold'>Reach any place easily</p>
+        </div>
+        </div>
         <div className="flex justify-center">
           <div className="w-4/6">
           <div className='w-3/4'>
-          <p className='text-3xl text-black font-bold'>For many, Japan has remained a highly desirable destination located too far out of reach—bright neon lights, high-tech robotics, geisha mystique and small samurai villages that just remained dreams</p>
+          <p className='text-3xl pt-12 text-black font-bold'>For many, Japan has remained a highly desirable destination located too far out of reach—bright neon lights, high-tech robotics, geisha mystique and small samurai villages that just remained dreams</p>
           </div>
           </div>
         </div>

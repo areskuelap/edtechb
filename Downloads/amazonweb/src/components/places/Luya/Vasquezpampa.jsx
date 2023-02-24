@@ -1,11 +1,10 @@
 import React from "react";
 import { useState } from "react";
-import ImageGallery from 'react-image-gallery';
 import Footer from "../../home/Footer";
 import useScript from './useScript';
 import { ChevronRightIcon } from "@heroicons/react/24/solid";
 
-export default function Luya() {
+const Vasquezpampa = () => {
 
     const [active, isActive] = useState(false);
     const [on, isOn] = useState(true);
@@ -18,18 +17,9 @@ export default function Luya() {
     useScript("https://widgets.skyscanner.net/widget-server/js/loader.js");  
     return (
         <div>
-        <div className="flex sm:hidden">       
+        <div className="flex sm:hidden">
             <div>
-            <div className='bg-[url("https://drive.google.com/uc?export=view&id=1rRYU1qOHJcaUB911_mIZGtybjEkk5LOE")] bg-cover bg-center bg-no-repeat'>
-        <div className='bg-gradient-to-l from-gray-500 to-transparent'>
-          <p className='text-lg font-semibold text-white pl-10 py-3'>Official guide for traveling Amazonas- Travel Amazonas</p>
-        </div>
-        <div className='pt-24 pb-56'>
-        <p className='text-4xl pl-10 text-white font-bold'>Luya</p>
-        <p className='text-xl py-3 pl-10 text-white font-bold'>Get out the most of your trip to Luya</p>
-        </div>
-        </div>             
-            <div className="flex pt-6 justify-center">
+            <div className="flex justify-center">
             <div className='bg-green-300 w-80 h-80 rounded-lg'>
               <div className='flex justify-center'>
               <p className='text-black text-2xl font-bold py-2'>Seasons</p>
@@ -135,13 +125,13 @@ export default function Luya() {
 
       <div className="hidden sm:flex">
         <div>
-        <div className='bg-[url("https://drive.google.com/uc?export=view&id=1rRYU1qOHJcaUB911_mIZGtybjEkk5LOE")] bg-cover bg-center bg-no-repeat'>
+        <div className='bg-[url("https://drive.google.com/uc?export=view&id=1MUL8lPArg1cuQA3Uv6kju8d-dUGi3185")] bg-cover bg-center bg-no-repeat'>
         <div className='bg-gradient-to-l from-gray-500 to-transparent'>
           <p className='text-lg font-semibold text-white pl-10 py-3'>Official guide for traveling Amazonas- Travel Amazonas</p>
         </div>
         <div className='pt-24 pb-56'>
-        <p className='text-4xl pl-10 text-white font-bold'>Luya</p>
-        <p className='text-xl py-3 pl-10 text-white font-bold'>Get out the most of your trip to Luya</p>
+        <p className='text-4xl pl-10 text-white font-bold'>Vasquezpampa</p>
+        <p className='text-xl py-3 pl-10 text-white font-bold'>Get out the most of your trip to Vasquezpampa</p>
         </div>
         </div>
           <div className='flex justify-center'>
@@ -440,19 +430,19 @@ export default function Luya() {
         <div className="flex justify-center">
           <div className='w-10/12  pb-10 grid grid-cols-4'>
               <div className="w-11/12">
-                <img src='https://1.bp.blogspot.com/-kgJarPRCryw/YB1xJCGSWqI/AAAAAAABqF4/hlGbsUXmxfYihxOw8sSpKbD4MHzcwguswCLcBGAsYHQ/s960/lamud-luya2.jpg' className='w-64 rounded h-49' alt='img'/>
+                <img src='https://www.anpeperu.org/sites/default/files/media/noticias/luya.jpg' className='w-64 rounded h-49' alt='img'/>
               <p className='text-base font-bold text-gray-800 hover:text-green-600 cursor-pointer'>Cohechan</p>
               </div>
               <div className="w-11/12">
-                <img src='https://elcomercio.pe/resizer/tgJJu-tpsy3Nr3PcIviw966Gw64=/1200x900/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/AYACJKCCAJC7FEOAEQY6RATW5A.jpg' className='w-64 rounded h-49' alt='img'/>
+                <img src='https://sinia.minam.gob.pe/sites/default/files/archivos/public/docs/amazonas-peru_0.jpg' className='w-64 rounded h-49' alt='img'/>
               <p className='text-base font-bold text-gray-800 hover:text-green-600 cursor-pointer'>Lamud</p>
               </div>
               <div className="w-11/12">
-                <img src='https://danzasdelaselva.com/wp-content/uploads/2021/04/distrito-de-trita.jpg' className='w-64 rounded h-49' alt='img'/>
+                <img src='https://1.bp.blogspot.com/-_B4PPoTokEg/YB1xJMnDh6I/AAAAAAABqF0/mLOiyUgB6ek0FfLiTioiTomp0cKTbvYNgCLcBGAsYHQ/s960/lamud-luya3.jpg' className='w-64 rounded h-49' alt='img'/>
               <p className='text-base font-bold text-gray-800 hover:text-green-600 cursor-pointer'>Trita</p>
               </div>
               <div className="w-11/12">
-                <img src='https://us.123rf.com/450wm/mathess/mathess1606/mathess160602367/59086237-leymebamba-per%C3%BA-9-junio-2015-plaza-de-la-ciudad-de-un-pueblo-de-leymebamba-el-norte-de-per%C3%BA-.jpg?ver=6' className='w-64 rounded h-49' alt='img'/>
+                <img src='https://live.staticflickr.com/7661/16571143253_12c2654c4f_b.jpg' className='w-64 rounded h-49' alt='img'/>
               <p className='text-base font-bold text-gray-800 hover:text-green-600 cursor-pointer'>Mirador del Utcubamba</p>
               </div>
           </div>
@@ -464,3 +454,5 @@ export default function Luya() {
         </div>
     );
 }
+
+export default Vasquezpampa;

@@ -173,39 +173,32 @@ const Search = () => {
     <div>
     <button onClick={()=>{handleClick2(); show2()}} style={{backgroundColor: isActive2 ? '#48bb78' : ''}} className='py-1 my-2 mx-2 px-3 border hover:bg-green-500 bg-transparent text-white font-semibold text-sm border-white rounded-3xl'>Bongará</button>
     </div>
+    </div>
+    </div>
+    <div className="flex justify-center mb-3">
+    <div className="flex w-full">
     <div>
-    <button onClick={()=>{handleClick6(); show2()}} style={{backgroundColor: isActive2 ? '#48bb78' : ''}} className='py-1 my-2 mx-2 px-3 border hover:bg-green-500 bg-transparent text-white font-semibold text-sm border-white rounded-3xl'>Utcubamba</button>
+    <button onClick={()=>{handleClick3(); show3()}} style={{backgroundColor: isActive3 ? '#48bb78' : ''}} className='py-1 my-2 mx-3 px-8 border hover:bg-green-500 text-white font-semibold text-sm border-white rounded-3xl'>Mendoza</button>
+    </div>
+    <div>
+    <button onClick={()=>{handleClick4(); show4()}} style={{backgroundColor: isActive4 ? '#48bb78' : ''}} className='py-1 my-2 mx-3 px-5 border hover:bg-green-500 bg-transparent text-white font-semibold text-sm border-white rounded-3xl'>Condorcanqui</button>
     </div>
     </div>
     </div>
     <div className="flex justify-center mb-3">
     <div className="flex w-full">
     <div>
-    <button onClick={()=>{handleClick3(); show()}} style={{backgroundColor: isActive3 ? '#48bb78' : ''}} className='py-1 my-2 mx-3 px-8 border hover:bg-green-500 text-white font-semibold text-sm border-white rounded-3xl'>Bagua</button>
+    <button onClick={()=>{handleClick5(); show5()}} style={{backgroundColor: isActive5 ? '#48bb78' : ''}} className='py-1 my-2 mx-2 px-3 border hover:bg-green-500 bg-transparent text-white font-semibold text-sm border-white rounded-3xl'>Bagua</button>
     </div>
     <div>
-    <button onClick={()=>{handleClick4(); show1()}} style={{backgroundColor: isActive4 ? '#48bb78' : ''}} className='py-1 my-2 mx-3 px-5 border hover:bg-green-500 bg-transparent text-white font-semibold text-sm border-white rounded-3xl'>Condorcanqui</button>
-    </div>
-    <div>
-    <button onClick={()=>{handleClick5(); show2()}} style={{backgroundColor: isActive5 ? '#48bb78' : ''}} className='py-1 my-2 mx-3 px-5 border hover:bg-green-500 bg-transparent text-white font-semibold text-sm border-white rounded-3xl'>Mendoza</button>
+    <button onClick={()=>{handleClick6(); show6()}} style={{backgroundColor: isActive6 ? '#48bb78' : ''}} className='py-1 my-2 mx-3 px-5 border hover:bg-green-500 bg-transparent text-white font-semibold text-sm border-white rounded-3xl'>Utcubamba</button>
     </div>
     </div>
     </div>
     {showMessage &&
       <div className=''>
     <div className='flex justify-center'>
-    <img className="w-11/12 h-auto object-cover" src="http://viajerosustentable.com/wp-content/gallery/CHACHAPOYAS/08.Canon-del-Sonche.JPG"/>
-    </div>
-    <div className="flex justify-center py-5">
-      <div className="w-11/12">
-      <p className='text-white text-sm flex justify-center font-semibold'> Chachapoyas es una ciudad del norte de Perú, en un valle rodeado de bosques nubosos. Su Plaza de Armas tiene una fuente de bronce y edificios coloniales, como el Palacio Municipal. La ciudad es una vía de acceso a sitios arqueológicos como Kuélap, una ciudad amurallada con cientos de edificios de la cultura chachapoyas antigua. Al norte de la ciudad, la enorme catarata Gocta se ubica en medio de la selva, que alberga tucanes y monos </p>
-      </div>
-   </div>
-    </div>}
-    {showMessage1 &&
-      <div className=''>
-    <div className='flex justify-center'>
-    <img className="w-11/12 h-auto object-cover" src="https://www.machupicchu.com.pe/imagenes/amazonas/huaylla-belen-chachapoyas-amazonas/portada-huaylla-belen.png"/>
+    <img className="w-11/12 h-auto object-cover" src="https://turismoi.pe/uploads/province/image/44/large_353_Luya.jpg"/>
     </div>
     <div className="flex justify-center py-5">
       <div className="w-11/12">
@@ -213,58 +206,69 @@ const Search = () => {
       </div>
    </div>
     </div>}
-    {showMessage2 &&
+    {showMessage1 &&
       <div className=''>
     <div className='flex justify-center'>
-    <img className="w-11/12 h-auto object-cover" src="http://viajerosustentable.com/wp-content/gallery/CHACHAPOYAS/08.Canon-del-Sonche.JPG"/>
+    <img className="w-11/12 h-auto object-cover" src="https://www.rumbosdelperu.com/wp-content/uploads/2017/10/chachapoyas.jpg"/>
     </div>
     <div className="flex justify-center py-5">
       <div className="w-11/12">
-      <p className='text-white text-sm flex justify-center font-semibold'> Chachapoyas es una ciudad del norte de Perú, en un valle rodeado de bosques nubosos. Su Plaza de Armas tiene una fuente de bronce y edificios coloniales, como el Palacio Municipal. La ciudad es una vía de acceso a sitios arqueológicos como Kuélap, una ciudad amurallada con cientos de edificios de la cultura chachapoyas antigua. Al norte de la ciudad, la enorme catarata Gocta se ubica en medio de la selva, que alberga tucanes y monos </p>
+      <p className='text-white text-sm flex justify-center font-semibold'>La provincia de Chachapoyas es una de las siete que conforman el departamento de Amazonas en el nororiente del Perú. La provincia fue creada políticamente mediante Ley del 21 de noviembre de 1832, promulgada por el presidente Agustín Gamarra. Y pertenece a la macrorregión Norte del Perú.</p>
+      </div>
+   </div>
+    </div>}
+    {showMessage2 &&
+      <div className=''>
+    <div className='flex justify-center'>
+    <img className="w-11/12 h-auto object-cover" src="https://turismoi.pe/uploads/photo/version2/photo_file/58659/optimized_gocta-la-posada-de-cuispes.jpg"/>
+    </div>
+    <div className="flex justify-center py-5">
+      <div className="w-11/12">
+      <p className='text-white text-sm flex justify-center font-semibold'>La provincia de Bongará es una de las siete que conforman el departamento de Amazonas en el norte del Perú. Fue creada por Decreto Ley del 26 de diciembre de 1870, en el gobierno del Presidente José Balta. Posee un clima variado. Es frío en Pishco huañuna. Templado en ciudades como: Jumbilla, Recta, Florida. Es cálido en: Churuja, San Carlos, Yabrasbamba Jazan y Shipasbamba.</p>
       </div>
    </div>
     </div>}
     {showMessage3 &&
       <div className=''>
     <div className='flex justify-center'>
-    <img className="w-11/12 h-auto object-cover" src="http://viajerosustentable.com/wp-content/gallery/CHACHAPOYAS/08.Canon-del-Sonche.JPG"/>
+    <img className="w-11/12 h-auto object-cover" src="https://munirodriguezdemendoza.gob.pe/wp-content/uploads/2020/08/men3.jpg"/>
     </div>
     <div className="flex justify-center py-5">
       <div className="w-11/12">
-      <p className='text-white text-sm flex justify-center font-semibold'> Chachapoyas es una ciudad del norte de Perú, en un valle rodeado de bosques nubosos. Su Plaza de Armas tiene una fuente de bronce y edificios coloniales, como el Palacio Municipal. La ciudad es una vía de acceso a sitios arqueológicos como Kuélap, una ciudad amurallada con cientos de edificios de la cultura chachapoyas antigua. Al norte de la ciudad, la enorme catarata Gocta se ubica en medio de la selva, que alberga tucanes y monos </p>
+      <p className='text-white text-sm flex justify-center font-semibold'>La provincia de Rodríguez de Mendoza es una de las siete que conforman el departamento de Amazonas en el Perú. Su nombre es un homenaje a Toribio Rodríguez de Mendoza, sacerdote y educador hispano-peruano nacido en Chachapoyas y considerado precursor ideológico de la Independencia del Perú. La capital de la provincia es Mendoza, ubicada en el distrito de San Nicolás. Está situada a 1616 msnm.</p>
       </div>
    </div>
     </div>}
     {showMessage4 &&
       <div className=''>
     <div className='flex justify-center'>
-    <img className="w-11/12 h-auto object-cover" src="http://viajerosustentable.com/wp-content/gallery/CHACHAPOYAS/08.Canon-del-Sonche.JPG"/>
+    <img className="w-11/12 h-auto object-cover" src="http://3.bp.blogspot.com/-gXS6ym9VGAg/Tx6-LfgAUcI/AAAAAAAABks/9oS567IRQLU/s1600/P1010160.JPG"/>
     </div>
     <div className="flex justify-center py-5">
       <div className="w-11/12">
-      <p className='text-white text-sm flex justify-center font-semibold'> Chachapoyas es una ciudad del norte de Perú, en un valle rodeado de bosques nubosos. Su Plaza de Armas tiene una fuente de bronce y edificios coloniales, como el Palacio Municipal. La ciudad es una vía de acceso a sitios arqueológicos como Kuélap, una ciudad amurallada con cientos de edificios de la cultura chachapoyas antigua. Al norte de la ciudad, la enorme catarata Gocta se ubica en medio de la selva, que alberga tucanes y monos </p>
+      <p className='text-white text-sm flex justify-center font-semibold'>La provincia de Condorcanqui es una de las siete que conforman el departamento de Amazonas en la zona nororiental del Perú. Esta provincia es la más norteña de la región y la más extensa. La Capital de esta provincia es la ciudad de Santa María de Nieva, ubicada sobre los 222 msnm.</p>
       </div>
    </div>
     </div>}
     {showMessage5 &&
       <div className=''>
     <div className='flex justify-center'>
-    <img className="w-11/12 h-auto object-cover" src="http://viajerosustentable.com/wp-content/gallery/CHACHAPOYAS/08.Canon-del-Sonche.JPG"/>
+    <img className="w-11/12 h-auto object-cover" src="https://2.bp.blogspot.com/-IYfRsC20Qi8/VztUeaKP7rI/AAAAAAAAFV4/vi3YGvyk6jYhfm53xkhTMjnz6znSzZtagCLcB/s1600/bagua.jpg"/>
     </div>
     <div className="flex justify-center py-5">
       <div className="w-11/12">
-      <p className='text-white text-sm flex justify-center font-semibold'> Chachapoyas es una ciudad del norte de Perú, en un valle rodeado de bosques nubosos. Su Plaza de Armas tiene una fuente de bronce y edificios coloniales, como el Palacio Municipal. La ciudad es una vía de acceso a sitios arqueológicos como Kuélap, una ciudad amurallada con cientos de edificios de la cultura chachapoyas antigua. Al norte de la ciudad, la enorme catarata Gocta se ubica en medio de la selva, que alberga tucanes y monos </p>
+      <p className='text-white text-sm flex justify-center font-semibold'>La provincia de Bagua es una de las siete que conforman el departamento de Amazonas en el Perú. Está ubicada en la parte septentrional del país y su capital, Bagua, se encuentra en el valle del bajo Utcubamba.</p>
       </div>
    </div>
     </div>}
     {showMessage6 &&
       <div className=''>
     <div className='flex justify-center'>
-    <img className="w-11/12 h-auto object-cover" src="http://viajerosustentable.com/wp-content/gallery/CHACHAPOYAS/08.Canon-del-Sonche.JPG"/>
+    <img className="w-11/12 h-auto object-cover" src="https://upload.wikimedia.org/wikipedia/commons/f/fe/El_Tingo.jpg"/>
     </div>
     <div className="flex justify-center py-5">
       <div className="w-11/12">
-      <p className='text-white text-sm flex justify-center font-semibold'> Chachapoyas es una ciudad del norte de Perú, en un valle rodeado de bosques nubosos. Su Plaza de Armas tiene una fuente de bronce y edificios coloniales, como el Palacio Municipal. La ciudad es una vía de acceso a sitios arqueológicos como Kuélap, una ciudad amurallada con cientos de edificios de la cultura chachapoyas antigua. Al norte de la ciudad, la enorme catarata Gocta se ubica en medio de la selva, que alberga tucanes y monos </p>
+      <p className='text-white text-sm flex justify-center font-semibold'>La provincia de Utcubamba es una de las siete que conforman el departamento de Amazonas en la zona nororiental del Perú. Limita por el norte con la provincia de Bagua y con la provincia de Condorcanqui; por el este con la provincia de Bongará; por el sur con la provincia de Luya; y por el oeste con el departamento de Cajamarca.</p>
       </div>
    </div>
     </div>}
@@ -285,9 +289,9 @@ const Search = () => {
     </div>
     <div className="flex justify-center pt-5 pb-5">
     <div className="flex w-10/12">
-    <button onClick={()=>{handleClick3(); show3()}} style={{backgroundColor: isActive3 ? '#48bb78' : ''}} className='py-4 my-2 mx-2 px-20 border hover:bg-green-500 bg-transparent text-white font-semibold text-xl border-white rounded-3xl'>Bagua</button>
+    <button onClick={()=>{handleClick3(); show3()}} style={{backgroundColor: isActive3 ? '#48bb78' : ''}} className='py-4 my-2 mx-2 px-20 border hover:bg-green-500 bg-transparent text-white font-semibold text-xl border-white rounded-3xl'>Mendoza</button>
     <button onClick={()=>{handleClick4(); show4()}} style={{backgroundColor: isActive4 ? '#48bb78' : ''}} className='py-4 my-2 mx-2 px-20 border hover:bg-green-500 bg-transparent text-white font-semibold text-xl border-white rounded-3xl'>Condorcanqui</button>
-    <button onClick={()=>{handleClick5(); show5()}} style={{backgroundColor: isActive5 ? '#48bb78' : ''}} className='py-4 my-2 mx-2 px-20 border hover:bg-green-500 bg-transparent text-white font-semibold text-xl border-white rounded-3xl'>Mendoza</button>
+    <button onClick={()=>{handleClick5(); show5()}} style={{backgroundColor: isActive5 ? '#48bb78' : ''}} className='py-4 my-2 mx-2 px-20 border hover:bg-green-500 bg-transparent text-white font-semibold text-xl border-white rounded-3xl'>Bagua</button>
     <button onClick={()=>{handleClick6(); show6()}} style={{backgroundColor: isActive6 ? '#48bb78' : ''}} className='py-4 my-2 mx-2 px-20 border hover:bg-green-500 bg-transparent text-white font-semibold text-xl border-white rounded-3xl'>Utcubamba</button>
     </div>
     </div>
@@ -295,70 +299,70 @@ const Search = () => {
     {showMessage &&
       <div className='grid grid-cols-2 w-10/12'>
     <div>
-    <img className="w-11/12 h-auto object-cover" src="http://viajerosustentable.com/wp-content/gallery/CHACHAPOYAS/08.Canon-del-Sonche.JPG"/>
-    </div>
+    <img className="w-11/12 h-auto object-cover" src="https://turismoi.pe/uploads/province/image/44/large_353_Luya.jpg"/>
+    </div> 
     <div className="pl-5 pt-5">
-    <p className='text-white text-xl font-semibold'> Chachapoyas es una ciudad del norte de Perú, en un valle rodeado de bosques nubosos. Su Plaza de Armas tiene una fuente de bronce y edificios coloniales, como el Palacio Municipal. La ciudad es una vía de acceso a sitios arqueológicos como Kuélap, una ciudad amurallada con cientos de edificios de la cultura chachapoyas antigua. Al norte de la ciudad, la enorme catarata Gocta se ubica en medio de la selva, que alberga tucanes y monos </p>
+    <p className='text-white text-xl font-semibold'>La provincia de Luya es una de las siete que conforman el departamento de Amazonas en la zona nororiental del Perú. Limita por el norte con la provincia de Utcubamba; por el este con la provincia de Bongará; por el sur con la provincia de Chachapoyas; y por el oeste con el departamento de Cajamarca.</p>
     </div>
     </div>
     }
     {showMessage1 &&
       <div className='grid grid-cols-2 w-10/12'>
     <div>
-    <img className="w-11/12 h-auto object-cover" src="https://www.machupicchu.com.pe/imagenes/amazonas/huaylla-belen-chachapoyas-amazonas/portada-huaylla-belen.png"/>
+    <img className="w-11/12 h-auto object-cover" src="https://www.rumbosdelperu.com/wp-content/uploads/2017/10/chachapoyas.jpg"/>
     </div>
     <div className="pl-5 pt-5">
-    <p className='text-white text-xl font-semibold'> La provincia de Luya es una de las siete que conforman el departamento de Amazonas en la zona nororiental del Perú. Limita por el norte con la provincia de Utcubamba; por el este con la provincia de Bongará; por el sur con la provincia de Chachapoyas; y por el oeste con el departamento de Cajamarca.</p>
+    <p className='text-white text-xl font-semibold'>La provincia de Chachapoyas es una de las siete que conforman el departamento de Amazonas en el nororiente del Perú. La provincia fue creada políticamente mediante Ley del 21 de noviembre de 1832, promulgada por el presidente Agustín Gamarra. Y pertenece a la macrorregión Norte del Perú.</p>
     </div>
     </div>
     }
     {showMessage2 &&
       <div className='grid grid-cols-2 w-10/12'>
     <div>
-    <img className="w-11/12 h-auto object-cover" src="https://media-cdn.tripadvisor.com/media/photo-s/08/16/cf/4d/rio-hotel-bagua-grande.jpg"/>
+    <img className="w-11/12 h-auto object-cover" src="https://turismoi.pe/uploads/photo/version2/photo_file/58659/optimized_gocta-la-posada-de-cuispes.jpg"/>
     </div>
     <div className="pl-5 pt-5">
-    <p className='text-white text-xl font-semibold'> Bagua es una ciudad peruana, capital del distrito de Bagua, ubicado en la provincia homónima en el departamento de Amazonas. Recientemente dejó su antiguo nombre de Bagua Chica, considerado despectivo por los habitantes de dicha ciudad, quienes han improvisado el término Bagua-Capital.</p>
+    <p className='text-white text-xl font-semibold'>La provincia de Bongará es una de las siete que conforman el departamento de Amazonas en el norte del Perú. Fue creada por Decreto Ley del 26 de diciembre de 1870, en el gobierno del Presidente José Balta. Posee un clima variado. Es frío en Pishco huañuna. Templado en ciudades como: Jumbilla, Recta, Florida. Es cálido en: Churuja, San Carlos, Yabrasbamba Jazan y Shipasbamba.</p>
     </div>
     </div>
     }
     {showMessage3 &&
       <div className='grid grid-cols-2 w-10/12'>
     <div>
-    <img className="w-11/12 h-72" src="https://drive.google.com/uc?export=view&id=18DhsjQSCepMGStY2PdOveytPE1Dc7Ih6"/>
+    <img className="w-11/12 h-72" src="https://munirodriguezdemendoza.gob.pe/wp-content/uploads/2020/08/men3.jpg"/>
     </div>
     <div className="pl-5 pt-5">
-    <p className='text-white text-xl font-semibold'> I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. </p>
+    <p className='text-white text-xl font-semibold'>La provincia de Rodríguez de Mendoza es una de las siete que conforman el departamento de Amazonas en el Perú. Su nombre es un homenaje a Toribio Rodríguez de Mendoza, sacerdote y educador hispano-peruano nacido en Chachapoyas y considerado precursor ideológico de la Independencia del Perú. La capital de la provincia es Mendoza, ubicada en el distrito de San Nicolás. Está situada a 1616 msnm.</p>
     </div>
     </div>
     }
     {showMessage4 &&
       <div className='grid grid-cols-2 w-10/12'>
     <div>
-    <img className="w-11/12 h-72" src="https://drive.google.com/uc?export=view&id=18DhsjQSCepMGStY2PdOveytPE1Dc7Ih6"/>
+    <img className="w-11/12 h-72" src="http://3.bp.blogspot.com/-gXS6ym9VGAg/Tx6-LfgAUcI/AAAAAAAABks/9oS567IRQLU/s1600/P1010160.JPG"/>
     </div>
     <div className="pl-5 pt-5">
-    <p className='text-white text-xl font-semibold'> I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. </p>
+    <p className='text-white text-xl font-semibold'>La provincia de Condorcanqui es una de las siete que conforman el departamento de Amazonas en la zona nororiental del Perú. Esta provincia es la más norteña de la región y la más extensa. La Capital de esta provincia es la ciudad de Santa María de Nieva, ubicada sobre los 222 msnm.</p>
     </div>
     </div>
     }
     {showMessage5 &&
       <div className='grid grid-cols-2 w-10/12'>
     <div>
-    <img className="w-11/12 h-72" src="https://drive.google.com/uc?export=view&id=1ww7Jaf6599LNAAznse9KRMDaH9o-ZH-V"/>
+    <img className="w-11/12 h-72" src="https://2.bp.blogspot.com/-IYfRsC20Qi8/VztUeaKP7rI/AAAAAAAAFV4/vi3YGvyk6jYhfm53xkhTMjnz6znSzZtagCLcB/s1600/bagua.jpg"/>
     </div>
     <div className="pl-5 pt-5">
-    <p className='text-white text-xl font-semibold'> I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. </p>
+    <p className='text-white text-xl font-semibold'>La provincia de Bagua es una de las siete que conforman el departamento de Amazonas en el Perú. Está ubicada en la parte septentrional del país y su capital, Bagua, se encuentra en el valle del bajo Utcubamba. </p>
     </div>
     </div>
     }
     {showMessage6 &&
       <div className='grid grid-cols-2 w-10/12'>
     <div>
-    <img className="w-11/12 h-72" src="https://drive.google.com/uc?export=view&id=1wg_fSIAf3D39xwgFGM24db__LZWNC-p9"/>
+    <img className="w-11/12 h-72" src="https://upload.wikimedia.org/wikipedia/commons/f/fe/El_Tingo.jpg"/>
     </div>
     <div className="pl-5 pt-5">
-    <p className='text-white text-xl font-semibold'> I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. Lorem ipsum is the standard I do not know, but it is. </p>
+    <p className='text-white text-xl font-semibold'>La provincia de Utcubamba es una de las siete que conforman el departamento de Amazonas en la zona nororiental del Perú. Limita por el norte con la provincia de Bagua y con la provincia de Condorcanqui; por el este con la provincia de Bongará; por el sur con la provincia de Luya; y por el oeste con el departamento de Cajamarca.</p>
     </div>
     </div>
     }

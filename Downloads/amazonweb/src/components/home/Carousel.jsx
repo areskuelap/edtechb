@@ -98,8 +98,10 @@ const Carousel = () => {
     <div className='w-10/12 grid grid-cols-2'>
     <Link to="/visa">
     <div className='flex mr-5 border pb-3 border-gray-400 hover:border-2 hover:border-green-500 hover:shadow-lg rounded-lg'>
+    <div className='w-1/5'>
     <img className='w-16 mb-5 ml-5 object-cover mt-5 rounded-full' src="https://static.vecteezy.com/system/resources/previews/009/916/094/non_2x/passport-flat-circle-free-vector.jpg" alt="Hola"/>
-    <div className="mt-5 pr-40">
+    </div>
+    <div className="mt-5 w-3/5">
       <div>
         <p className='font-semibold pb-3 text-2xl text-black'>VISA</p>
       </div>
@@ -107,14 +109,16 @@ const Carousel = () => {
         <p className='text-lg text-gray-800'>This is a sample description.</p>
       </div>
     </div>
-    <div className="flex items-center">
+    <div className="flex w-1/5 items-center">
     <ChevronRightIcon className="text-gray-700 w-12"/>
     </div>
     </div>
     </Link>
     <div className='ml-5 cursor-pointer flex border pb-3 border-gray-400 hover:border-2 hover:border-green-500 hover:shadow-lg rounded-lg'>
+    <div className='w-1/5'>
     <img className='w-16 mb-5 ml-5 object-cover mt-5 rounded-full' src="https://img.favpng.com/23/10/23/logo-tax-free-shopping-duty-free-shop-png-favpng-VSvtvaLY5WWjVyLyKeLhCMPWP.jpg" alt="Hola"/>
-    <div className="mt-5 pr-40">
+    </div>
+    <div className="mt-5 w-3/5">
       <div>
         <p className='font-semibold pb-3 text-xl text-black'>Duty Free & Tax Refunds</p>
       </div>
@@ -122,7 +126,7 @@ const Carousel = () => {
         <p className='text-lg text-gray-800'>This is a sample description.</p>
       </div>
     </div>
-    <div className="flex items-center">
+    <div className="flex w-1/5 items-center">
     <ChevronRightIcon className="text-gray-700 w-12"/>
     </div>
     </div>
@@ -131,8 +135,10 @@ const Carousel = () => {
     <div className='flex justify-center'>
     <div className='pb-5 pt-5 grid grid-cols-2 w-10/12'>
     <div className='mr-5 flex border cursor-pointer border-gray-400 pb-3 hover:border-2 hover:border-green-500 hover:shadow-lg rounded-lg'>
+    <div className='w-1/5'>
     <img className='w-16 mb-5 ml-5 object-cover mt-5 rounded-full' src="https://png.pngtree.com/element_pic/17/03/25/ec98824ea2dacb618e95f750be66e52b.jpg" alt="Hola"/>
-    <div className="mt-5 pr-40">
+    </div>
+    <div className="mt-5 w-3/5">
       <div>
         <p className='font-semibold text-xl pb-3 text-black'>Tourist-friendly Amazonas</p>
       </div>
@@ -140,14 +146,16 @@ const Carousel = () => {
         <p className='text-lg text-gray-800'>This is a sample description.</p>
       </div>
     </div>
-    <div className="flex items-center">
+    <div className="flex w-1/5 items-center">
     <ChevronRightIcon className="text-gray-700 w-12"/>
     </div>
     </div>
     <Link to="/transportation">
     <div className='ml-5 flex border border-gray-400 pb-3 hover:border-2 hover:border-green-500 hover:shadow-lg rounded-lg'>
+    <div className='w-1/5'>
     <img className='w-16 mb-5 ml-5 object-cover mt-5 rounded-full' src="https://media.istockphoto.com/id/1269785368/vector/road-construction-logo-road-maintenance-creative-sign-concept-paving-design-template-vector.jpg?b=1&s=612x612&w=0&k=20&c=GKlLcccnfFxJ6b4V6WpbWWKFZjkbun-tljlLusrRogI=" alt="Hola"/>
-    <div className='mt-5 pr-40'>
+    </div>
+    <div className='mt-5 w-3/5'>
       <div>
         <p className='font-semibold text-xl text-black pb-3'>Transportation</p>
       </div>
@@ -155,7 +163,7 @@ const Carousel = () => {
         <p className='text-lg text-gray-800'>This is a sample description.</p>
       </div>
     </div>
-    <div className="flex items-center">
+    <div className="flex w-1/5 items-center">
     <ChevronRightIcon className="text-gray-700 w-12"/>
     </div>
     </div>

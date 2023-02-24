@@ -14,75 +14,68 @@ const Selects = () => {
 
   useScript("https://widgets.skyscanner.net/widget-server/js/loader.js");
   return (
-      <div>
-      <div className="flex justify-center hidden sm:flex">
-          <div className='w-11/12 pt-10'>
-              <p className='text-lg text-gray-800 font-bold'>Themed travels</p>
+      <div className='bg-green-50'>
+        <div className='flex justify-center'>
+            <div className='w-10/12'>
+                <p className='text-3xl font-bold text-gray-800 py-5'>Themed travels</p>
+            </div>
+        </div>
+        <div className="flex justify-center">
+          <div className='w-10/12  py-10 grid grid-cols-1 sm:grid-cols-4'>
+              <div className="">
+              <div className="w-11/12">
+              <div className="flex justify-center sm:justify-start">
+              <img src='https://i0.wp.com/laposadadecuispes.com/wp-content/uploads/2018/08/museo-4.jpg?ssl=1' className='w-64 rounded h-49' alt='img'/>
+              </div>
+              <div className="flex justify-center sm:justify-start">
+              <p className='text-sm font-bold pt-1 sm:pt-3 pb-1 sm:pb-2 hover:text-green-600 text-gray-700 cursor-pointer'>Sponsored travel</p>
+              </div>
+              <div className="flex justify-center sm:justify-start">
+              <p className='text-base font-bold text-gray-800 hover:text-green-600 cursor-pointer'>Try the best food and canopying in Bagua</p>
+              </div>                           
+              </div>
+              </div>
+              <div className="">
+              <div className="w-11/12 pt-10 sm:pt-0">
+              <div className="flex justify-center sm:justify-start">
+              <img src='https://blog.redbus.pe/wp-content/uploads/2017/09/peru-1531879_1920.jpg' className='w-64 rounded h-49' alt='img'/>
+              </div>
+              <div className="flex justify-center sm:justify-start">
+              <p className='text-sm font-bold pt-1 sm:pt-3 pb-1 sm:pb-2 hover:text-green-600 text-gray-700 cursor-pointer'>Sponsored travel</p>
+              </div>
+              <div className="flex justify-center sm:justify-start">
+              <p className='text-base font-bold text-gray-800 hover:text-green-600 cursor-pointer'>Try local specialties in Rodriguez de Mendoza</p>
+              </div>
+              </div>
+              </div>
+              <div className="">
+              <div className="w-11/12 pt-10 sm:pt-0">
+                <div className="flex justify-center sm:justify-start">
+                <img src='https://i0.wp.com/laposadadecuispes.com/wp-content/uploads/2018/08/museo-4.jpg?ssl=1' className='w-64 rounded h-49' alt='img'/>
+                </div>
+                <div className="flex justify-center sm:justify-start">
+                <p className='text-sm font-bold pt-1 sm:pt-3 pb-1 sm:pb-2 hover:text-green-600 text-gray-700 cursor-pointer'>Sponsored travel</p>
+                </div>
+                <div className="flex justify-center sm:justify-start">
+                <p className='text-base font-bold text-gray-800 hover:text-green-600 cursor-pointer'>Must do in Chachapoyas</p>
+                </div>
+              </div>
+              </div>
+              <div className="">
+              <div className="w-11/12 pt-10 sm:pt-0">
+                <div className="flex justify-center sm:justify-start">
+                <img src='https://blog.redbus.pe/wp-content/uploads/2017/09/peru-1531879_1920.jpg' className='w-64 rounded h-49' alt='img'/>
+                </div>
+                <div className="flex justify-center sm:justify-start">
+                <p className='text-sm font-bold pt-1 sm:pt-3 pb-1 sm:pb-2 hover:text-green-600 text-gray-700 cursor-pointer'>Sponsored travel</p>
+                </div>
+                <div className="flex justify-center sm:justify-start">
+                <p className='text-base font-bold text-gray-800 hover:text-green-600 cursor-pointer'>What to do in Luya Viejo</p>
+                </div>
+              </div>
+              </div>
           </div>
-      </div>
-        <div className="flex hidden justify-center">
-            <div className="flex w-11/12 pt-5">
-            <div className='w-1/6 flex items-center justify-center'>
-            <ChevronLeftIcon className="w-12 text-gray-800 font-bold"/>
-            </div>
-            <div className='w-4/6'>
-            <div className="w-64 h-64 cursor-pointer bg-cover  bg-[url('https://upload.wikimedia.org/wikipedia/commons/d/df/Lago_de_Pomacochas%2C_Florida%2C_Bongar%C3%A1%2C_Amazonas_-_Per%C3%BA..jpg')]">
-            <div className='bg-green-500 py-2 px-4 w-3/5'>
-            <p className='text-white font-semibold text-base'>Themed travel</p>
-            </div>
-            </div>
-            </div>
-            <div className='w-1/6 flex justify-center items-center'>
-              <ChevronRightIcon className="w-12 text-gray-800"/>
-            </div>
-            </div>
         </div>
-        <div className='bg-white hidden sm:block'>
-        <div className='flex justify-center pt-10'>
-        <div className='w-10/12 grid grid-cols-4'>
-      <div className='pr-5'>
-      <div className="h-48 cursor-pointer bg-cover w-full bg-[url('https://upload.wikimedia.org/wikipedia/commons/d/df/Lago_de_Pomacochas%2C_Florida%2C_Bongar%C3%A1%2C_Amazonas_-_Per%C3%BA..jpg')]">
-        <div className='bg-green-500 py-2 px-4 w-3/5'>
-        <p className='text-white text-base'>Themed travel</p>
-        </div>
-        </div>
-        <div className='border h-24 border-gray-600 mb-10 hover:border-2 hover:border-green-600'>
-        <p className='text-gray-600 cursor-pointer font-semibold text-2xl mx-5'>Traveling from Condorcanqui to Luya</p>
-        </div>
-      </div>
-      <div className='pr-5'>
-      <div className='w-full cursor-pointer h-48 bg-cover bg-[url("https://seturismo.pe/wp-content/uploads/2018/08/Laguna-de-los-condores-Amazonas.jpg")]'>
-        <div className='bg-green-500 py-2 px-4 w-3/5'>
-        <p className='text-white'>Themed travel</p>
-        </div>
-        </div>
-        <div className='border h-24 border-gray-600 mb-10 hover:border-2 hover:border-green-600'>
-        <p className='text-gray-600 font-semibold cursor-pointer text-2xl mx-5'>Must do in Chachapoyas</p>
-        </div>
-      </div>
-      <div className='pr-5'>
-      <div className='w-full cursor-pointer h-48 bg-cover bg-[url("https://i0.wp.com/laposadadecuispes.com/wp-content/uploads/2018/08/museo-4.jpg?ssl=1")]'>
-        <div className='bg-green-500 py-2 px-4 w-3/5'>
-        <p className='text-white'>Themed travel</p>
-        </div>
-        </div>
-        <div className='border h-24 border-gray-600 mb-10 hover:border-2 hover:border-green-600'>
-        <p className='text-gray-600 font-semibold cursor-pointer text-2xl mx-5'>Visiting Quiocta</p>
-        </div>
-      </div>
-      <div className=''>
-      <div className='w-full h-48 cursor-pointer bg-cover bg-[url("https://i0.wp.com/laposadadecuispes.com/wp-content/uploads/2018/08/museo-4.jpg?ssl=1")]'>
-        <div className='bg-green-500 py-2 px-4 w-3/5'>
-        <p className='text-white'>Themed travel</p>
-        </div>
-        </div>
-        <div className='border h-24 border-gray-600 mb-10 hover:border-2 hover:border-green-600'>
-        <p className='text-gray-600 font-semibold cursor-pointer text-2xl mx-5'>About karajia</p>
-        </div>
-      </div>
-        </div>
-        </div>
-    </div>
       </div>
   )
 }

@@ -1,9 +1,10 @@
 import React from "react";
+import Footer from "../home/Footer";
 
  const Newsa = () => {
     return(
         <div>
-            <div className="flex justify-center pb-10">
+            <div className="flex justify-center py-10">
                 <p className="text-4xl font-semibold text-black">Kuelap will open to visitors next week</p>
             </div>
             <div className="flex justify-center">
@@ -13,7 +14,7 @@ import React from "react";
                 </div>
             </div>
             <div className="flex justify-center">
-                <div className="w-1/2">
+                <div className="pt-6 w-1/2">
                     <img className="w-full h-auto" src="https://tongglobalcdn.visitkorea.or.kr/img/vk/enu/cms/content/70/2940870_image_1.jpg?v=2023001883"/>
                 </div>
             </div>
@@ -23,8 +24,8 @@ import React from "react";
             </div>
             </div>
             <div className="flex justify-center">
-                <div className="w-3/4 pb-10">
-                <iframe src="https://www.youtube.com/embed/7VkY1J9Hs7E" className="w-4/5 sm:w-2/5 h-48 sm:h-80 rounded-lg"></iframe>
+                <div className="w-3/4 flex justify-center pb-10">
+                <iframe src="https://www.youtube.com/embed/N8SjBcK-nVg" className="w-4/5 sm:w-2/5 h-48 sm:h-80 rounded-lg"></iframe>
             </div>
             </div>
             <div className="flex justify-center">
@@ -37,6 +38,7 @@ import React from "react";
                 <p className="text-lg font-bold text-black">Period: <a className="text-lg text-black">January 12 - February 28, 2023 / 48 days</a> <br/> For Whom: <a className="text-lg text-black">Foreigners visiting Korea</a> Website: <a className="text-lg text-blue-500 underline">https://en.koreagrandsale.co.kr/kgs</a></p>
             </div>
             </div>
+            <Footer/>
         </div>
     );
 }

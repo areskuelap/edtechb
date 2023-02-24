@@ -12,10 +12,10 @@ const Newsmain = () => {
             <div className="flex justify-center">
                 <div className="w-11/12 sm:w-4/5 grid grid-cols-1 sm:grid-cols-3">
                     
-                    <div className="py-5">
+                    <div className="pb-5">
                     <Link to="/newsa">
                     <div className="bg-[url('https://reinadelaselva.pe/content/img_noticia/kuelapastros.jpg')] cursor-pointer h-48 bg-cover w-72 flex justify-end items-end">
-                        <p className="text-white font-bold pb-3 pr-3">Halo</p>
+                        <p className="text-white font-bold pb-3 pr-3"></p>
                     </div>
                     </Link>
                     <Link to="/newsa">
@@ -27,7 +27,7 @@ const Newsmain = () => {
                     </div>
                     <div className="pb-5">
                     <div className="bg-[url('https://reinadelaselva.pe/content/img_noticia/kuelapastros.jpg')] cursor-pointer h-48 bg-contain w-72 flex justify-end items-end">
-                        <p>Halo</p>
+                        <p></p>
                     </div>
                     <div className="h-32 pl-3 w-72 border border-gray-400 cursor-pointer hover:border-2 hover:border-green-500">
                         <p className="text-lg text-gray-600 font-semibold"> <a className="text-lg text-green-500 font-bold">Amazonas</a> free admission on Holiday</p>
@@ -36,7 +36,7 @@ const Newsmain = () => {
                     </div>
                     <div className="pb-5">
                     <div className="bg-[url('https://reinadelaselva.pe/content/img_noticia/kuelapastros.jpg')] cursor-pointer h-48 bg-contain w-72 flex justify-end items-end">
-                        <p>Halo</p>
+                        <p></p>
                     </div>
                     <div className="h-32 w-72 pl-3 border border-gray-400 cursor-pointer hover:border-2 hover:border-green-500">
                         <p className="text-lg text-gray-600 font-semibold"> <a className="text-lg text-green-500 font-bold">Amazonas</a> free admission on Holiday</p>
@@ -49,7 +49,7 @@ const Newsmain = () => {
                 <div className="w-11/12 sm:w-4/5 grid grid-cols-1 sm:grid-cols-3 py-10">
                     <div className="pb-5">
                     <div className="bg-[url('https://reinadelaselva.pe/content/img_noticia/kuelapastros.jpg')] cursor-pointer h-48 bg-cover w-72 flex justify-end items-end">
-                        <p className="text-black">Halo</p>
+                        <p className="text-black"></p>
                     </div>
                     <div className="h-32 pl-3 w-72 border border-gray-400 cursor-pointer hover:border-2 hover:border-green-500">
                         <p className="text-lg text-gray-600 font-semibold"> <a className="text-lg text-green-500 font-bold">Amazonas</a> free admission on Holiday</p>
@@ -58,7 +58,7 @@ const Newsmain = () => {
                     </div>
                     <div className="pb-5">
                     <div className="bg-[url('https://reinadelaselva.pe/content/img_noticia/kuelapastros.jpg')] cursor-pointer h-48 bg-contain w-72 flex justify-end items-end">
-                        <p>Halo</p>
+                        <p></p>
                     </div>
                     <div className="h-32 pl-3 w-72 border border-gray-400 cursor-pointer hover:border-2 hover:border-green-500">
                         <p className="text-lg text-gray-600 font-semibold"> <a className="text-lg text-green-500 font-bold">Amazonas</a> free admission on Holiday</p>
@@ -67,7 +67,7 @@ const Newsmain = () => {
                     </div>
                     <div className="pb-5">
                     <div className="bg-[url('https://reinadelaselva.pe/content/img_noticia/kuelapastros.jpg')] cursor-pointer h-48 bg-contain w-72 flex justify-end items-end">
-                        <p>Halo</p>
+                        <p></p>
                     </div>
                     <div className="h-32 pl-3 w-72 border border-gray-400 cursor-pointer hover:border-2 hover:border-green-500">
                         <p className="text-lg text-gray-600 font-semibold"> <a className="text-lg text-green-500 font-bold">Amazonas</a> free admission on Holiday</p>
