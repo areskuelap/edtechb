@@ -155,9 +155,9 @@ const Navbar = () => {
         </div>
       )}
       </div>
-      <div className='flex justify-center items-center'>
+      <Link to="/"><div className='flex justify-center items-center'>
         <img src="https://drive.google.com/uc?export=view&id=1GTPcDQ4HCCq5nC9ntlRPyrNrtYXvH6Om" className='h-auto w-20 pt-5'/>
-      </div>
+      </div></Link>
       <div className='flex justify-end items-center pr-4'>
         <MagnifyingGlassIcon className="text-gray-800 w-6" />
       </div>
