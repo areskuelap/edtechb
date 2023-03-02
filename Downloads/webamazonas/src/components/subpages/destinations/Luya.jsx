@@ -1,12 +1,11 @@
 import React from "react";
-import { useState } from "react";
-import ImageGallery from 'react-image-gallery';
+import { useState, useEffect } from "react";
+import {FaDotCircle} from "react-icons/fa";
 import Footer from "../../home/Footer";
 import useScript from './useScript';
 import { ChevronRightIcon } from "@heroicons/react/24/solid";
 
 export default function Luya() {
-
     const [active, isActive] = useState(false);
     const [on, isOn] = useState(true);
   
@@ -14,8 +13,19 @@ export default function Luya() {
         isActive(true);
         isOn(false);
     }
-  
-    useScript("https://widgets.skyscanner.net/widget-server/js/loader.js");  
+
+    useEffect(() => {
+      var addScript = document.createElement("script");
+      addScript.setAttribute(
+        "src",
+        "https://widgets.skyscanner.net/widget-server/js/loader.js"
+      );
+      addScript.async = true;
+      document.body.appendChild(addScript);
+      return () => {
+        document.body.removeChild(addScript);
+      }
+    }, []);
     return (
         <div>
         <div className="flex sm:hidden">       
@@ -93,7 +103,7 @@ export default function Luya() {
             </div>
           </div>
           <div className='flex justify-center pt-10'>
-                <div className='w-4/5 border w-full border-gray-100 rounded bg-gray-100 py-10'>
+                <div className='w-4/5 border border-gray-100 rounded bg-gray-100 py-10'>
                 <p className='pb-5 font-bold text-xl text-black pl-8'>Don’t Miss</p>
                 <ul className='w-11/12 pl-8 text-black text-sm font-semibold'>
                   <li>The neon lights of Dotombori Bridge and Osaka’s Minami area</li>
@@ -155,7 +165,7 @@ export default function Luya() {
               </div>
             </div>
             <div className='w-32 flex justify-center py-10'>
-            <div data-skyscanner-widget="SearchWidget" data-destination-name="'Chachapoyas'"></div>
+            <div className="w-full h-auto" data-skyscanner-widget="SearchWidget" data-destination-name="'Chachapoyas'"></div>
             </div>
           </div>
           </div>
@@ -239,13 +249,42 @@ export default function Luya() {
           </div>  
           <div className='flex justify-center pt-10'>
               <div className='w-4/5'>
-                <div className='w-3/5 border w-full border-gray-100 rounded bg-gray-100 py-10'>
+                <div className='w-2/3 border border-gray-100 rounded bg-gray-100 py-10'>
                 <p className='pb-5 font-bold text-3xl text-black pl-8'>Don’t Miss</p>
-                <ul className='w-11/12 pl-8 text-black text-lg font-semibold'>
-                  <li>The neon lights of Dotombori Bridge and Osaka’s Minami area</li>
-                  <li className='py-2'>Exploring Osaka Castle Park and Expo Memorial Park, the site of Expo '70</li>
-                  <li>Partaking in major seasonal festivals including Tenjin Matsuri, Kishiwada Danjiri and Ebessan</li>
-                  <li className='py-2'>Indulging in famous culinary delights, particularly in neighborhoods such as Tenma and Ura Namba</li>
+                <ul className='w-11/12 px-8 text-black text-lg font-semibold'>
+                  <div className="flex">
+                    <div className="flex items-center w-1/5 justify-center">
+                    <FaDotCircle className="w-6 text-green-600"/>
+                    </div>
+                    <div className="w-4/5">
+                    <p className="text-gray-700">The neon lights of Dotombori Bridge and Osaka’s Minami area</p>
+                    </div>
+                  </div>
+                  <div className="flex">
+                    <div className="flex items-center w-1/5 justify-center">
+                    <FaDotCircle className="w-6 text-green-600"/>
+                    </div>
+                    <div className="w-4/5">
+                    <p className='py-2 text-gray-700'>Exploring Osaka Castle Park and Expo Memorial Park, the site of Expo '70</p>
+                    </div>
+                  </div>
+                  <div className="flex">
+                    <div className="flex items-center w-1/5 justify-center">
+                    <FaDotCircle className="w-6 text-green-600"/>
+                    </div>
+                    <div className="w-4/5">
+                    <p className="text-gray-700">Partaking in major seasonal festivals including Tenjin Matsuri, Kishiwada Danjiri and Ebessan</p>
+                    </div>
+                  </div>
+                  <div className="flex">
+                    <div className="flex items-center w-1/5 justify-center">
+                    <FaDotCircle className="w-6 text-green-600"/>
+                    </div>
+                    <div className="w-4/5">
+                    <p className='py-2 text-gray-700'>Indulging in famous culinary delights, particularly in neighborhoods such as Tenma and Ura Namba</p>
+                    </div>
+                  </div>
+                  
                 </ul>
                 </div>
               </div>

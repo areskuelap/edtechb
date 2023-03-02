@@ -6,10 +6,10 @@ export default function Art() {
     return (
         <div>
         <div className='bg-[url("https://drive.google.com/uc?export=view&id=1CYH9zssDxg6TJgZyEpiUbsi-4OWM-9mC")] bg-cover bg-center bg-no-repeat'>
-        <div className='bg-gradient-to-l from-gray-500 to-transparent'>
+        <div className='bg-gray-800 bg-opacity-50'>
           <p className='text-lg font-semibold text-white pl-10 py-3'>Official guide for traveling Amazonas- Travel Amazonas</p>
         </div>
-        <div className='pt-24 pb-56'>
+        <div className='pt-24 pb-56 bg-gray-800 bg-opacity-50'>
         <p className='text-4xl pl-10 text-white font-semibold'>Art & Design in Amazonas</p>
         <p className='text-xl py-3 pl-10 text-white font-semibold'>Amazonas' museums feature all kinds of art, housed in buildings showcasing traditional and modern architecture</p>
         </div>

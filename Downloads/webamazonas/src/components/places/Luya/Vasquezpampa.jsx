@@ -126,10 +126,10 @@ const Vasquezpampa = () => {
       <div className="hidden sm:flex">
         <div>
         <div className='bg-[url("https://drive.google.com/uc?export=view&id=1MUL8lPArg1cuQA3Uv6kju8d-dUGi3185")] bg-cover bg-center bg-no-repeat'>
-        <div className='bg-gradient-to-l from-gray-500 to-transparent'>
+        <div className='bg-gray-800 bg-opacity-40'>
           <p className='text-lg font-semibold text-white pl-10 py-3'>Official guide for traveling Amazonas- Travel Amazonas</p>
         </div>
-        <div className='pt-24 pb-56'>
+        <div className='pt-24 pb-56 bg-gray-800 bg-opacity-40'>
         <p className='text-4xl pl-10 text-white font-bold'>Vasquezpampa</p>
         <p className='text-xl py-3 pl-10 text-white font-bold'>Get out the most of your trip to Vasquezpampa</p>
         </div>

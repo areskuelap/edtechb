@@ -2,14 +2,45 @@ import React, {  useState } from 'react';
 import { useEffect } from 'react';
 import { Link} from 'react-router-dom';
 import { MagnifyingGlassIcon, Bars3Icon, SunIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
-
+import "./google.css";
 
 const Navbar = () => {
+  const googleTranslateElementInit = () => {
+    new window.google.translate.TranslateElement(
+      {
+        pageLanguage: "en",
+        autoDisplay: false
+      },
+      "google_translate_element"
+    );
+  };
+  useEffect(() => {
+    var addScript = document.createElement("script");
+    addScript.setAttribute(
+      "src",
+      "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    );
+    addScript.async = true;
+    document.body.appendChild(addScript);
+    window.googleTranslateElementInit = googleTranslateElementInit;
+  }, []);
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = "https://cse.google.com/cse.js?cx=cb31eea0e4df95e4b";
+    script.async = true;
+    document.body.appendChild(script);
+  
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
+
     let time = new Date().toLocaleTimeString();
     const [currentTime, setCurrentTime] = useState(time);
 
     const [weather, setWeather] = useState([]);
-  
+
     useEffect(() => {
       const fetchData = async() =>{
         await fetch("https://api.openweathermap.org/data/2.5/weather?q=chachapoyas&appid=f146cb84514cc4fa7752e6c3b033c917")
@@ -24,7 +55,6 @@ const Navbar = () => {
     const[one, setOne] = useState(false);
     const[two, setTwo] = useState(false);
     const[three, setThree] = useState(false);
-    const[four, setFour] = useState(false);
 
     const uno = () => {
       setOne(abierto => !abierto);
@@ -54,7 +84,7 @@ const Navbar = () => {
   }
 
      const data = (weather?.main?.temp - 273.15).toFixed(2);
-    const updateTime = () => {
+     const updateTime = () => {
       let time = new Date().toLocaleTimeString();
       setCurrentTime(time);
     }
@@ -163,16 +193,20 @@ const Navbar = () => {
       </div>
     </div>
       <div className='hidden sm:block border-b border-gray-200 pb-4'>
-      <div className='flex py-4 bg-gray-100'>
-      <div className='flex justify-center w-1/2'>
-      <p className='text-gray-700 text-base font-semibold'>Chachapoyas local time: {currentTime} (GMT-5)</p>
+      <div className='flex h-12 bg-gray-100'>
+      <div className='flex justify-center w-1/3'>
+      <p className='text-gray-700 pt-3 text-base font-semibold'>Chachapoyas local time: {currentTime} (GMT-5)</p>
       </div>
-      <div className="flex justify-center">
+      <div className="flex w-1/3 justify-center">
         <div className="flex">
         <SunIcon className="text-yellow-500 w-6"/> 
-        <p className='text-gray-700 text-base font-semibold pl-3 pr-3'>{data}<span> &deg;C</span></p>
+        <p className='text-gray-700 pt-3 text-base font-semibold pl-3 pr-3'>{data}<span> &deg;C</span></p>
         </div>
-        <p className='text-gray-700 text-base pl-3 font-semibold'>Description: {weather?.weather?.map((result) => <a>{result.description}</a>)}</p>
+        <p className='text-gray-700 pt-3 text-base pl-3 font-semibold'>Description: {weather?.weather?.map((result) => <span>{result?.description}</span>)}</p>
+      </div>
+      <div className="flex w-1/3 justify-center">
+      <div className="pt-2" 
+       id="google_translate_element"></div>
       </div>
       </div>
       <div className="">
@@ -228,7 +262,7 @@ const Navbar = () => {
       </div>
     </div>
     <div className=' flex justify center w-1/4'>
-            <input className='py-2 w-2/3 font-semibold outline-none text-gray-400 border border-gray-400 rounded-xl pl-4 hover:border hover:border-green-500' placeholder='Search...'/>
+      <div class="gcse-search"></div>
           </div>
     </nav>
   </div>

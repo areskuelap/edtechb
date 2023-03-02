@@ -42,8 +42,39 @@ const Banners = () => {
             </div>
       </div>
     </div>
+    <div className="flex justify-center">
+      <div className='w-11/12 pt-5'>
+    <Swiper
+                navigation={true}
+                modules={[Navigation]}
+                className="mySwiper"
+            >
+                <SwiperSlide>
+                    <img
+                        className="object-fill w-full h-96"
+                        src="https://cdn.pixabay.com/photo/2022/03/20/15/40/nature-7081138__340.jpg"
+                        alt="image slide 1"
+                    />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img
+                        className="object-fill w-full h-96"
+                        src="https://cdn.pixabay.com/photo/2022/07/24/17/55/wind-energy-7342177__340.jpg"
+                        alt="image slide 2"
+                    />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img
+                        className="object-fill w-full h-96"
+                        src="https://cdn.pixabay.com/photo/2022/07/26/03/35/jogger-7344979__340.jpg"
+                        alt="image slide 3"
+                    />
+                </SwiperSlide>
+            </Swiper>
     </div>
-    <div className='pb-10 hidden sm:flex flex justify-center pt-10'>
+      </div>
+    </div>
+    <div className='pb-10 hidden sm:flex justify-center pt-10'>
     <div className='w-10/12 grid grid-cols-2'>
     <div>
         <div className='flex'>

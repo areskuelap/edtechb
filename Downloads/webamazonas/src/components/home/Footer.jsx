@@ -81,7 +81,7 @@ const Footer = () => {
           </div> 
           <div className='grid grid-cols-3 pb-10'>
             <div className='flex justify-center'>
-              <p className='font-bold text-2xl text-gray-400 hover:text-white'>Amazonas</p>
+              <p translate="no" className='font-bold text-2xl text-gray-400 hover:text-white'>Amazonas</p>
             </div>
             <div className='flex justify-center'>
               <p className='text-lg text-gray-400 hover:text-white px-10 font-semibold cursor-pointer'>Privacy</p>

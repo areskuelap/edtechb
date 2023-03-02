@@ -23,9 +23,9 @@ const Selects = () => {
         <div className="flex justify-center">
           <div className='w-10/12  py-10 grid grid-cols-1 sm:grid-cols-4'>
               <div className="">
-              <div className="w-11/12">
+              <div className="w-full sm:w-11/12">
               <div className="flex justify-center sm:justify-start">
-              <img src='https://i0.wp.com/laposadadecuispes.com/wp-content/uploads/2018/08/museo-4.jpg?ssl=1' className='w-64 rounded h-49' alt='img'/>
+              <img src='https://i0.wp.com/laposadadecuispes.com/wp-content/uploads/2018/08/museo-4.jpg?ssl=1' className='w-full sm:w-64 rounded h-49' alt='img'/>
               </div>
               <div className="flex justify-center sm:justify-start">
               <p className='text-sm font-bold pt-1 sm:pt-3 pb-1 sm:pb-2 hover:text-green-600 text-gray-700 cursor-pointer'>Sponsored travel</p>
@@ -36,9 +36,9 @@ const Selects = () => {
               </div>
               </div>
               <div className="">
-              <div className="w-11/12 pt-10 sm:pt-0">
+              <div className="w-full sm:w-11/12 pt-10 sm:pt-0">
               <div className="flex justify-center sm:justify-start">
-              <img src='https://blog.redbus.pe/wp-content/uploads/2017/09/peru-1531879_1920.jpg' className='w-64 rounded h-49' alt='img'/>
+              <img src='https://blog.redbus.pe/wp-content/uploads/2017/09/peru-1531879_1920.jpg' className='w-full sm:w-64 rounded h-49' alt='img'/>
               </div>
               <div className="flex justify-center sm:justify-start">
               <p className='text-sm font-bold pt-1 sm:pt-3 pb-1 sm:pb-2 hover:text-green-600 text-gray-700 cursor-pointer'>Sponsored travel</p>
@@ -49,9 +49,9 @@ const Selects = () => {
               </div>
               </div>
               <div className="">
-              <div className="w-11/12 pt-10 sm:pt-0">
+              <div className="w-full sm:w-11/12 pt-10 sm:pt-0">
                 <div className="flex justify-center sm:justify-start">
-                <img src='https://i0.wp.com/laposadadecuispes.com/wp-content/uploads/2018/08/museo-4.jpg?ssl=1' className='w-64 rounded h-49' alt='img'/>
+                <img src='https://i0.wp.com/laposadadecuispes.com/wp-content/uploads/2018/08/museo-4.jpg?ssl=1' className='w-full sm:w-64 rounded h-49' alt='img'/>
                 </div>
                 <div className="flex justify-center sm:justify-start">
                 <p className='text-sm font-bold pt-1 sm:pt-3 pb-1 sm:pb-2 hover:text-green-600 text-gray-700 cursor-pointer'>Sponsored travel</p>
@@ -62,9 +62,9 @@ const Selects = () => {
               </div>
               </div>
               <div className="">
-              <div className="w-11/12 pt-10 sm:pt-0">
+              <div className="w-full sm:w-11/12 pt-10 sm:pt-0">
                 <div className="flex justify-center sm:justify-start">
-                <img src='https://blog.redbus.pe/wp-content/uploads/2017/09/peru-1531879_1920.jpg' className='w-64 rounded h-49' alt='img'/>
+                <img src='https://blog.redbus.pe/wp-content/uploads/2017/09/peru-1531879_1920.jpg' className='w-full sm:w-64 rounded h-49' alt='img'/>
                 </div>
                 <div className="flex justify-center sm:justify-start">
                 <p className='text-sm font-bold pt-1 sm:pt-3 pb-1 sm:pb-2 hover:text-green-600 text-gray-700 cursor-pointer'>Sponsored travel</p>
@@ -80,4 +80,4 @@ const Selects = () => {
   )
 }
 
-export default Selects
+export default Selects;

@@ -6,10 +6,10 @@ export default function Shopping() {
     return (
         <div>
         <div className='bg-[url("https://drive.google.com/uc?export=view&id=12Khk3ZP3Pf1fRgLs55Qm3zVc9g0uuNUI")] bg-gradient-to-l from-gray-300 to-transparent bg-cover bg-center bg-no-repeat'>
-        <div className='bg-gradient-to-l from-gray-500 to-transparent'>
+        <div className='bg-gray-800 bg-opacity-50'>
           <p className='text-lg font-semibold text-white pl-10 py-3'>Official guide for traveling Amazonas- Travel Amazonas</p>
         </div>
-        <div className='pt-24 pb-56'>
+        <div className='pt-24 pb-56 bg-gray-800 bg-opacity-50'>
         <p className='text-4xl pl-10 text-white font-semibold'>Shopping in Amazonas</p>
         <p className='text-xl py-3 pl-10 text-white font-semibold'>Take to the streets of chic shopping districts in the city or hunt for traditional wares in the country's rural regions</p>
         </div>

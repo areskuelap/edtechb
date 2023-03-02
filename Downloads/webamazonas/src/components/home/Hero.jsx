@@ -38,7 +38,7 @@ const Hero = () => {
     </div>
     </div>
 
-    <div className='flex justify-center hidden sm:flex pb-10'>
+    <div className='justify-center hidden sm:flex pb-10'>
     <div className="w-10/12">
     <div className="py-5">
       <p className="text-4xl font-semibold text-black">Popular places</p>
@@ -46,7 +46,7 @@ const Hero = () => {
     <div className="grid grid-cols-2">
     
     <div>
-    <Link to="/vasquezpampa"><div className='mb-3 cursor-pointer w-[33.5rem] h-80 rounded flex items-end bg-cover bg-[url("https://www.actualidadambiental.pe/wp-content/uploads/2018/11/granja_porcon_actualidad_ambiental.jpg")]'>
+    <Link to="/vasquezpampa"><div className='mb-3 cursor-pointer w-[33.5rem] h-[20.8rem] rounded flex items-end bg-cover bg-[url("https://www.actualidadambiental.pe/wp-content/uploads/2018/11/granja_porcon_actualidad_ambiental.jpg")]'>
     <p className='font-bold text-white text-lg pb-4 pl-4'>Bosque de Vasquezpampa</p>
     </div></Link>
     </div>
@@ -91,7 +91,7 @@ const Hero = () => {
     </div>
     </div>
     <div>
-    <Link to="/vasquezpampa"><div className='mb-3 cursor-pointer w-[33.5rem] h-80 rounded flex items-end bg-cover bg-[url("https://viajesblog.net/wp-content/uploads/2018/05/5b85f6e416e9dbc34fd4dc7af7c473f5-900x600.jpg")]'>
+    <Link to="/vasquezpampa"><div className='mb-3 cursor-pointer w-[33.5rem] h-[20.8rem] rounded flex items-end bg-cover bg-[url("https://viajesblog.net/wp-content/uploads/2018/05/5b85f6e416e9dbc34fd4dc7af7c473f5-900x600.jpg")]'>
     <p className='font-bold text-white text-lg pb-4 pl-4'>Swimming</p>
     </div></Link>  
     </div>
