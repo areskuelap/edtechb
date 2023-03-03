@@ -42,7 +42,7 @@ const Widget = () => {
                 <FaArrowAltCircleUp onClick={abrir} className="w-3/4 cursor-pointer pl-5 text-white"/>
                 </div>
                 <div className="w-5/6">
-                <p onClick={abrir} className="text-sm p-3 font-semibold cursor-pointer text-white">What was your primary reason to visit this website today?</p>
+                <p onClick={abrir} className="text-sm p-3 font-semibold cursor-pointer text-white">¿Cuál es tu razón principal para visitar este sitio web?</p>
                 </div>
             </div>
             {one &&
@@ -52,7 +52,7 @@ const Widget = () => {
                 <FaDotCircle className="w-3/4 pl-5 text-white hover:text-green-600 cursor-pointer"/>
                 </div>
                 <div className="w-5/6">
-                <p onClick={hola} style={{color: active? "#ffff" : "#48bb78"}} className="text-sm p-3 font-semibold  hover:text-green-600 cursor-pointer">I want to visit Amazonas in the future</p>
+                <p onClick={hola} style={{color: active? "#ffff" : "#48bb78"}} className="text-sm p-3 font-semibold  hover:text-green-600 cursor-pointer">Quiero visitar Amazonas pronto</p>
                 </div>
                 </div>
                 <div className="flex">
@@ -60,7 +60,7 @@ const Widget = () => {
                 <FaDotCircle className="w-3/4 pl-5 text-white hover:text-green-600 cursor-pointer"/>
                 </div>
                 <div className="w-5/6">
-                <p onClick={hello} style={{color: active1? "#ffff" : "#48bb78"}} className="text-sm p-3 font-semibold  hover:text-green-600 cursor-pointer">I plan to visit Amazonas soon</p>
+                <p onClick={hello} style={{color: active1? "#ffff" : "#48bb78"}} className="text-sm p-3 font-semibold  hover:text-green-600 cursor-pointer">Planeo visitar Amazonas el próximo año</p>
                 </div>
                 </div>
                 <div className="flex">
@@ -68,12 +68,12 @@ const Widget = () => {
                 <FaDotCircle className="w-3/4 pl-5 text-white hover:text-green-600"/>
                 </div>
                 <div className="w-5/6">
-                <p onClick={halo} style={{color: active2? "#ffff" : "#48bb78"}} className="text-sm p-3 font-semibold hover:text-green-600 cursor-pointer ">For research purposes</p>
+                <p onClick={halo} style={{color: active2? "#ffff" : "#48bb78"}} className="text-sm p-3 font-semibold hover:text-green-600 cursor-pointer ">Estoy investigando</p>
                 </div>
                 </div>
                 <div className="flex py-5">
                 <div className="w-4/6 flex justify-center">
-                <button onClick={send} className="px-5 py-2 rounded-full font-semibold bg-white hover:bg-gray-400 hover:text-green-200 text-green-600 cursor-pointer">Submit</button>
+                <button onClick={send} className="px-5 py-2 rounded-full font-semibold bg-white hover:bg-gray-400 hover:text-green-200 text-green-600 cursor-pointer">Enviar</button>
                 </div>
                 <div className="flex w-2/6 items-center justify-start">
                 <GrClose style={{color: "#ffff"}} onClick={cerrar} className="w-1/2 pl-5 cursor-pointer   hover:text-green-600"/>

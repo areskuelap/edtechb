@@ -12,7 +12,7 @@ const Info = () => {
                         <FaPassport className="w-1/5 sm:w-2/5 text-green-600  hover:text-green-400 cursor-pointer h-auto"/>
                         </div>
                         <div className="flex justify-center">
-                        <p className="pt-8 text-sm sm:text-lg font-semibold cursor-pointer text-gray-900 hover:text-green-600">Visa Information</p>
+                        <p className="pt-8 text-sm sm:text-lg font-semibold cursor-pointer text-gray-900 hover:text-green-600">VISA</p>
                         </div></Link>                        
                     </div>
                     <div>
@@ -20,7 +20,7 @@ const Info = () => {
                         <FaInfoCircle className="w-1/5 sm:w-2/5 pt-5 sm:pt-0 text-green-600 hover:text-green-400 cursor-pointer h-auto"/>
                         </div>
                         <div className="flex justify-center">
-                        <p className="pt-8 text-sm sm:text-lg font-semibold cursor-pointer text-gray-900 hover:text-green-600">For First-Time Visitors</p>
+                        <p className="pt-8 text-sm sm:text-lg font-semibold cursor-pointer text-gray-900 hover:text-green-600">Primer viaje</p>
                         </div></Link>                        
                     </div>
                     <div>
@@ -28,7 +28,7 @@ const Info = () => {
                         <FaBed className="w-1/5 sm:w-2/5 text-green-600 pt-5 sm:pt-0 hover:text-green-400 cursor-pointer h-auto"/>
                         </div>
                         <div className="flex justify-center">
-                        <p className="pt-8 text-sm sm:text-lg font-semibold cursor-pointer text-gray-900 hover:text-green-600">Where to stay</p>
+                        <p className="pt-8 text-sm sm:text-lg font-semibold cursor-pointer text-gray-900 hover:text-green-600">Dónde hospedarse</p>
                         </div></Link>                        
                     </div>
                     <div>
@@ -36,7 +36,7 @@ const Info = () => {
                         <FaBus className="w-1/5 sm:w-2/5 text-green-600 pt-5 sm:pt-0 hover:text-green-400 h-auto cursor-pointer"/>
                         </div>
                         <div className="flex justify-center">
-                        <p className="pt-8 text-sm sm:text-lg font-semibold cursor-pointer text-gray-900 hover:text-green-600">Getting Around</p>
+                        <p className="pt-8 text-sm sm:text-lg font-semibold cursor-pointer text-gray-900 hover:text-green-600">Desplazarse</p>
                         </div></Link>                        
                     </div>
                     <div>
@@ -44,7 +44,7 @@ const Info = () => {
                         <FaFileDownload className="w-1/5 sm:w-2/5 pt-5 sm:pt-0 text-green-600 hover:text-green-400 h-auto cursor-pointer"/>
                         </div>
                         <div className="flex justify-center">
-                        <p className="pt-8 text-sm sm:text-lg cursor-pointer font-semibold text-gray-900 hover:text-green-600">Brochure Download</p>
+                        <p className="pt-8 text-sm sm:text-lg cursor-pointer font-semibold text-gray-900 hover:text-green-600">Descargar flyer</p>
                         </div></Link>                        
                     </div>
                 </div>

@@ -30,7 +30,7 @@ export default function Luya() {
         <div>
         <div className="flex sm:hidden">       
             <div>
-            <div className='bg-[url("https://drive.google.com/uc?export=view&id=1rRYU1qOHJcaUB911_mIZGtybjEkk5LOE")] bg-cover bg-center bg-no-repeat'>
+            <div className='bg-[url("https://drive.google.com/uc?export=view&id=18pQ78EbnNS_6SRfK5hjbSdYLGwb5UvoA")] bg-cover bg-center bg-no-repeat'>
         <div className='bg-gradient-to-l from-gray-500 to-transparent'>
           <p className='text-lg font-semibold text-white pl-10 py-3'>Official guide for traveling Amazonas- Travel Amazonas</p>
         </div>
@@ -145,23 +145,23 @@ export default function Luya() {
 
       <div className="hidden sm:flex">
         <div>
-        <div className='bg-[url("https://drive.google.com/uc?export=view&id=1rRYU1qOHJcaUB911_mIZGtybjEkk5LOE")] bg-cover bg-center bg-no-repeat'>
+        <div className='bg-[url("https://drive.google.com/uc?export=view&id=18pQ78EbnNS_6SRfK5hjbSdYLGwb5UvoA")] bg-cover bg-center bg-no-repeat'>
         <div className='bg-gradient-to-l from-gray-500 to-transparent'>
-          <p className='text-lg font-semibold text-white pl-10 py-3'>Official guide for traveling Amazonas- Travel Amazonas</p>
+          <p className='text-lg font-semibold text-white pl-10 py-3'>Guía oficial para viajar por Amazonas- Travel Amazonas</p>
         </div>
         <div className='pt-24 pb-56'>
         <p className='text-4xl pl-10 text-white font-bold'>Luya</p>
-        <p className='text-xl py-3 pl-10 text-white font-bold'>Get out the most of your trip to Luya</p>
+        <p className='text-xl py-3 pl-10 text-white font-bold'>Saca lo mejor de tu viaje a Luya</p>
         </div>
         </div>
           <div className='flex justify-center'>
           <div className='flex w-4/5'>
             <div className='w-2/3 pt-10 pb-5'>
               <div className=''>
-                <p className='font-bold text-3xl text-black'>Luya is a charming, relaxed city best known for its food, fun and nightlife—with some history and culture peeking through</p>
+                <p className='font-bold text-3xl text-black'>Luya es una ciudad encantadora y relajada mejor conocida por su comida, diversión y vida nocturna, con algo de historia y cultura asomándose.</p>
               </div>
               <div className='py-10'>
-                <p className='text-xl text-black'>Osaka is only a short shinkansen ride from Tokyo, but has a very different personality to Japan's capital city. Hop off the bullet train into an area of exciting nightlife, delicious food and straight-talking, friendly locals. Along with plenty of shopping and modern attractions, Osaka also has a historical side, the highlight of which is Osaka Castle. The castle is a great place to discover more about Japanese history and to wander the beautiful grounds, especially during cherry blossom season in April when the sakura blooms and the weather is often at its best.</p>
+                <p className='text-xl text-black'>Luya está a poca distancia de Chachapoyas, pero tiene una personalidad muy diferente a la capital de Amazonas. Junto con muchas tiendas y otras atracciones, Luya también tiene un lado histórico, el punto culminante de los cuales es Lamud. Lamud es un gran lugar para descubrir más sobre la historia de Amazonas y para pasear por los hermosos jardines, especialmente durante la temporada de los cerezos en flor en abril, cuando florece el sakura y el clima suele ser mejor.</p>
               </div>
             </div>
             <div className='w-32 flex justify-center py-10'>
@@ -174,10 +174,10 @@ export default function Luya() {
             <div>
             <div className='w-4/5 pb-5'>
               <div className=''>
-                <p className='font-bold text-3xl text-black'>Get the best views of Luya</p>
+                <p className='font-bold text-3xl text-black'>Obtiene las mejores vistas de Luya</p>
               </div>
               <div className='pt-10'>
-                <p className='text-xl text-black'>You can find the best views of Sakurajima at the picturesque Japanese garden Sengan-en  and on top of the Shiroyama viewpoint, which rises up behind the city. Take note, you may also get a light showering of ash if the volcano erupts, which it frequently does.</p>
+                <p className='text-xl text-black'>Puede encontrar las mejores vistas de Luya en el pintoresco jardín de Luya Sengan-en y en la parte superior del mirador, que se eleva detrás de la ciudad. Tome nota, también puede recibir una ligera lluvia de cenizas si el volcán entra en erupción, lo que ocurre con frecuencia.</p>
               </div>
               <div className="py-5">
                   <img className="w-10/12 rounded h-auto" src="https://i.pinimg.com/originals/ef/17/d5/ef17d5ff5efe1fdf4a9ad55f44633b68.jpg" alt=""/>
@@ -185,61 +185,61 @@ export default function Luya() {
             </div>
             <div className='w-4/5 pb-5'>
               <div className=''>
-                <p className='font-bold text-3xl text-black'>Take a leisurely walk around the old castle grounds</p>
+                <p className='font-bold text-3xl text-black'>Da un paseo tranquilo por los terrenos del antiguo castillo.</p>
               </div>
               <div className='pt-10'>
-                <p className='text-xl text-black'>Start at Terukuni-jinja shrine , where revered feudal lord Shimazu Nariakira is enshrined. Then head over to get your photo taken with the statue of the real last samurai, Saigo Takamori. Take a leisurely stroll past the old castle walls, and head inside the former castle grounds to visit the Reimeikan Museum and learn about the rich history and culture of Kagoshima.</p>
+                <p className='text-xl text-black'>Comience en el santuario de Terukuni-jinja, donde está consagrado el venerado señor feudal Shimazu Nariakira. Luego dirígete para tomarte una foto con la estatua del verdadero último samurái, Saigo Takamori. Pasee tranquilamente por los antiguos muros del castillo y diríjase al interior de los terrenos del antiguo castillo para visitar el Museo Reimeikan y aprender sobre la rica historia y cultura de Kagoshima.</p>
               </div>
             </div>
             <div className='w-4/5 pb-5'>
               <div className=''>
-                <p className='font-bold text-3xl text-black'>Journey through the historic Sengan-en</p>
+                <p className='font-bold text-3xl text-black'>Viaje a través del histórico Sengan-en</p>
               </div>
               <div className='pt-10'>
-                <p className='text-xl text-black'>Make sure to leave plenty of time for a visit to Sengan-en , the former private residence of the feudal lords of the Satsuma domain. The expansive grounds include the house and gardens as well as a museum and glassworks.</p>
+                <p className='text-xl text-black'>Asegúrese de dejar suficiente tiempo para visitar Sengan-en, la antigua residencia privada de los señores feudales del dominio de Satsuma. Los extensos terrenos incluyen la casa y los jardines, así como un museo y una fábrica de vidrio.</p>
               </div>
             </div>
             <div className='w-4/5 pb-5'>
               <div className=''>
-                <p className='font-bold text-3xl text-black'>How to Get There</p>
+                <p className='font-bold text-3xl text-black'>Cómo llegar</p>
               </div>
               <div className='pt-10'>
-                <p className='text-xl text-black'>From Tokyo, take the Tokaido-Sanyo Shinkansen to Shin-Osaka Station. The trip takes approximately two and a half hours. From Shin-Osaka Station, transfer to the JR local line and ride to Osaka Station. From Kansai International Airport (KIX), take the Nankai or JR lines to Tennoji or Namba stations.</p>
+                <p className='text-xl text-black'>Desde Chachapoyas, toma el Tokaido-Sanyo Shinkansen hasta la estación Shin-Osaka. El viaje dura aproximadamente dos horas y media. Desde la estación Shin-Osaka, haz transbordo a la línea local JR y viaja hasta la estación de Osaka. Desde el aeropuerto internacional de Kansai (KIX), tome las líneas Nankai o JR hasta las estaciones de Tennoji o Namba.</p>
               </div>
             </div>
             {on && <div onClick={oneClick} className='cursor-pointer'>
-                <p className='text-lg font-bold text-red-600'>Click for more</p>
+                <p className='text-lg font-bold text-red-600'>Click para más</p>
               </div>
               }
               {active &&
                 <div className='w-4/5 flex justify-center pb-10'>
-                <p className='text-xl text-black'>Osaka is an excellent base for exploring the greater Kansai region, which includes Kyoto, Nara, Kobe and Wakayama. Each of these areas is a one-hour train ride from Osaka’s central transportation hubs (Osaka Station in the north, and Namba Station and Tennoji Station in the south). Kansai International Airport (KIX) is rivaled only by Narita Airport in Tokyo in size and scope, and is serviced by all major airlines. There are many direct flights between KIX and many major cities in the US, Europe and Australia.</p>
+                <p className='text-xl text-black'>Luya es una base excelente para explorar la gran región de Kansai, que incluye Kioto, Nara, Kobe y Wakayama. Cada una de estas áreas se encuentra a una hora en tren desde los centros de transporte centrales de Osaka (la estación de Osaka en el norte y la estación de Namba y la estación de Tennoji en el sur). El Aeropuerto Internacional de Kansai (KIX) solo rivaliza con el Aeropuerto de Narita en Tokio en tamaño y alcance, y cuenta con el servicio de todas las principales aerolíneas. Hay muchos vuelos directos entre KIX y muchas ciudades importantes de EE. UU., Europa y Australia.</p>
               </div>}
             </div>
             <div className='bg-green-300 w-80 h-80 rounded-lg'>
               <div className='flex justify-center'>
-              <p className='text-black text-2xl font-bold py-2'>Seasons</p>
+              <p className='text-black text-2xl font-bold py-2'>Estaciones</p>
               </div>
               <div className='flex justify-center'>
                   <div className='w-64 rounded-lg h-64 bg-white pt-8'>
                     <div className='flex justify-center'>
                         <div className='w-10/12 bg-green-300 rounded flex items-center h-12 justify-center'>
-                          <p className='text-black font-bold text-lg'>Winter</p>
+                          <p className='text-black font-bold text-lg'>Invierno</p>
                         </div>
                     </div>
                     <div className='flex justify-center pb-8'>
                         <div className='w-4/5 bg-wwhite flex items-center pb-2 h-12 justify-center'>
-                          <p className='text-black font-bold text-lg'>January - June</p>
+                          <p className='text-black font-bold text-lg'>Enero - Junio</p>
                         </div>
                     </div>
                     <div className='flex justify-center'>
                         <div className='w-4/5 bg-green-300 rounded flex items-center py-2 h-12 justify-center'>
-                          <p className='text-black font-bold text-lg'>Summer</p>
+                          <p className='text-black font-bold text-lg'>Verano</p>
                         </div>
                     </div>
                     <div className='flex justify-center'>
                         <div className='w-4/5 bg-wwhite flex items-center pb-2 h-12 justify-center'>
-                          <p className='text-black font-bold text-lg'>July - December</p>
+                          <p className='text-black font-bold text-lg'>Julio - Diciembre</p>
                         </div>
                     </div>
                   </div>
@@ -250,14 +250,14 @@ export default function Luya() {
           <div className='flex justify-center pt-10'>
               <div className='w-4/5'>
                 <div className='w-2/3 border border-gray-100 rounded bg-gray-100 py-10'>
-                <p className='pb-5 font-bold text-3xl text-black pl-8'>Don’t Miss</p>
+                <p className='pb-5 font-bold text-3xl text-black pl-8'>No te pierdas</p>
                 <ul className='w-11/12 px-8 text-black text-lg font-semibold'>
                   <div className="flex">
                     <div className="flex items-center w-1/5 justify-center">
                     <FaDotCircle className="w-6 text-green-600"/>
                     </div>
                     <div className="w-4/5">
-                    <p className="text-gray-700">The neon lights of Dotombori Bridge and Osaka’s Minami area</p>
+                    <p className="text-gray-700">Las luces de neón del puente Dotombori y el área Minami de Osaka</p>
                     </div>
                   </div>
                   <div className="flex">
@@ -265,7 +265,7 @@ export default function Luya() {
                     <FaDotCircle className="w-6 text-green-600"/>
                     </div>
                     <div className="w-4/5">
-                    <p className='py-2 text-gray-700'>Exploring Osaka Castle Park and Expo Memorial Park, the site of Expo '70</p>
+                    <p className='py-2 text-gray-700'>Explorando el Parque del Castillo de Osaka y el Parque Expo Memorial, el sitio de la Expo '70</p>
                     </div>
                   </div>
                   <div className="flex">
@@ -273,7 +273,7 @@ export default function Luya() {
                     <FaDotCircle className="w-6 text-green-600"/>
                     </div>
                     <div className="w-4/5">
-                    <p className="text-gray-700">Partaking in major seasonal festivals including Tenjin Matsuri, Kishiwada Danjiri and Ebessan</p>
+                    <p className="text-gray-700">Participar en los principales festivales de temporada, incluidos Tenjin Matsuri, Kishiwada Danjiri y Ebessan</p>
                     </div>
                   </div>
                   <div className="flex">
@@ -281,7 +281,7 @@ export default function Luya() {
                     <FaDotCircle className="w-6 text-green-600"/>
                     </div>
                     <div className="w-4/5">
-                    <p className='py-2 text-gray-700'>Indulging in famous culinary delights, particularly in neighborhoods such as Tenma and Ura Namba</p>
+                    <p className='py-2 text-gray-700'>Disfrutar de delicias culinarias famosas, especialmente en barrios como Tenma y Ura Namba</p>
                     </div>
                   </div>
                   
@@ -291,7 +291,7 @@ export default function Luya() {
           </div>
           <div className='flex justify-center pt-10'>
             <div className='w-5/6'>
-                <p className='text-3xl font-bold text-black'>Explore Luya by Area</p>
+                <p className='text-3xl font-bold text-black'>Explora Luya por áreas</p>
             </div>
           </div>   
           <div className='flex justify-center pt-10 pb-4'>
@@ -328,7 +328,7 @@ export default function Luya() {
           </div> 
           <div className='py-10 flex justify-center'>
               <div className="w-4/5">
-                <p className='text-black font-bold text-3xl'>Local specialties</p>
+                <p className='text-black font-bold text-3xl'>Especialidades locales</p>
               </div>
         </div> 
         <div className="hidden sm:flex">
@@ -340,10 +340,10 @@ export default function Luya() {
             <img className='w-4/5 h-auto rounded-lg' src="https://tse2.mm.bing.net/th?id=OIP.7kT8b3Nfgph5trl-j_OmLwHaKe&pid=Api"/>
           </div>
           <div className='w-2/3'>
-          <p className='text-lg text-black font-bold'>Credit Cards</p>
-          <p className='text-gray-700 text-sm'>Even though Japan is a cash-centric country, credit cards are usually accepted in most shops, restaurants and taxis in major cities.</p>
+          <p className='text-lg text-black font-bold'>Tarjetas de crédito</p>
+          <p className='text-gray-700 text-sm'>Aunque Amazonas es una región centrada en efectivo, las tarjetas de crédito generalmente se aceptan en la mayoría de las tiendas, restaurantes y taxis en las principales ciudades.</p>
           <div className="flex pt-4 items-center">
-            <p className="text-red-500 font-semibold text-sm cursor-pointer hover:underline">Learn More</p>
+            <p className="text-red-500 font-semibold text-sm cursor-pointer hover:underline">Ver más</p>
             <ChevronRightIcon className="text-red-500 pl-1 w-6"/>
           </div>
           </div>
@@ -353,10 +353,10 @@ export default function Luya() {
             <img className='w-4/5 h-auto rounded-lg' src="https://tse2.mm.bing.net/th?id=OIP.7kT8b3Nfgph5trl-j_OmLwHaKe&pid=Api"/>
           </div>
           <div className='w-2/3'>
-          <p className='text-lg text-black font-bold'>Tipping</p>
-          <p className='text-gray-700 text-sm'>Tipping is not practiced in Japan. In fact, it can cause discomfort and confusion if you do. A service charge is generally added on to the final bill in restaurants.</p>
+          <p className='text-lg text-black font-bold'>Propinas</p>
+          <p className='text-gray-700 text-sm'>Las propinas no se practican en Japón. De hecho, puede causar incomodidad y confusión si lo hace. En los restaurantes, generalmente se agrega un cargo por servicio a la factura final.</p>
           <div className="flex pt-4 items-center">
-            <p className="text-red-500 font-semibold text-sm cursor-pointer hover:underline">Learn More</p>
+            <p className="text-red-500 font-semibold text-sm cursor-pointer hover:underline">Ver más</p>
             <ChevronRightIcon className="text-red-500 pl-1 w-6"/>
           </div>
           </div>
@@ -380,10 +380,10 @@ export default function Luya() {
             <img className='w-4/5 h-auto rounded-lg' src="https://tse2.mm.bing.net/th?id=OIP.7kT8b3Nfgph5trl-j_OmLwHaKe&pid=Api"/>
           </div>
           <div className='w-2/3'>
-          <p className='text-lg text-black font-bold'>Currency</p>
-          <p className='text-gray-700 text-sm'>The Japanese yen is used throughout the country and you can exchange foreign currency at the airports and most major banks.</p>
+          <p className='text-lg text-black font-bold'>Moneda</p>
+          <p className='text-gray-700 text-sm'>El sol peruano se usa en todo el país y se puede cambiar moneda extranjera en los aeropuertos y en la mayoría de los principales bancos.</p>
           <div className="flex pt-4 items-center">
-            <p className="text-red-500 font-semibold text-sm cursor-pointer hover:underline">Learn More</p>
+            <p className="text-red-500 font-semibold text-sm cursor-pointer hover:underline">Ver más</p>
             <ChevronRightIcon className="text-red-500 pl-1 w-6"/>
           </div>
           </div>
@@ -393,10 +393,10 @@ export default function Luya() {
             <img className='w-4/5 h-auto rounded-lg' src="https://tse2.mm.bing.net/th?id=OIP.7kT8b3Nfgph5trl-j_OmLwHaKe&pid=Api"/>
           </div>
           <div className='w-2/3'>
-          <p className='text-lg text-black font-bold'>Wi-Fi & Connectivity</p>
-          <p className='text-gray-700 text-sm'>Wireless hotspots are popping up all over major cities in Japan, so you should never be too far from a Wi-Fi connection.</p>
+          <p className='text-lg text-black font-bold'>Wi-Fi & Conectividad</p>
+          <p className='text-gray-700 text-sm'>Los puntos de acceso inalámbricos están apareciendo en las principales ciudades de Amazonas, por lo que nunca debe estar demasiado lejos de una conexión Wi-Fi.</p>
           <div className="flex pt-4 items-center">
-            <p className="text-red-500 font-semibold text-sm cursor-pointer hover:underline">Learn More</p>
+            <p className="text-red-500 font-semibold text-sm cursor-pointer hover:underline">Ver más</p>
             <ChevronRightIcon className="text-red-500 pl-1 w-6"/>
           </div>
           </div>
@@ -420,10 +420,10 @@ export default function Luya() {
             <img className='w-4/5 h-auto rounded-lg' src="https://tse2.mm.bing.net/th?id=OIP.7kT8b3Nfgph5trl-j_OmLwHaKe&pid=Api"/>
           </div>
           <div className='w-2/3'>
-          <p className='text-lg text-black font-bold'>Plugs & Electricity</p>
-          <p className='text-gray-700 text-sm'>Japan uses two flat parallel prong plugs. For guaranteed charging of your electrical necessities, purchase a plug adapter beforehand.</p>
+          <p className='text-lg text-black font-bold'>Plugs & Electricidad</p>
+          <p className='text-gray-700 text-sm'>Amazonas utiliza dos enchufes de clavijas paralelas planas. Para garantizar la carga de sus necesidades eléctricas, compre un adaptador de enchufe de antemano.</p>
           <div className="flex pt-4 items-center">
-            <p className="text-red-500 font-semibold text-sm cursor-pointer hover:underline">Learn More</p>
+            <p className="text-red-500 font-semibold text-sm cursor-pointer hover:underline">Ver más</p>
             <ChevronRightIcon className="text-red-500 pl-1 w-6"/>
           </div>
           </div>
@@ -433,10 +433,10 @@ export default function Luya() {
             <img className='w-4/5 h-auto rounded-lg' src="https://tse2.mm.bing.net/th?id=OIP.7kT8b3Nfgph5trl-j_OmLwHaKe&pid=Api"/>
           </div>
           <div className='w-2/3'>
-          <p className='text-lg text-black font-bold'>Timezone</p>
-          <p className='text-gray-700 text-sm'>All of Japan sits within the same time zone, and no daylight saving is practiced. The country is nine hours ahead of GMT.</p>
+          <p className='text-lg text-black font-bold'>Zona horaria</p>
+          <p className='text-gray-700 text-sm'>Todo Amazonas se encuentra dentro de la misma zona horaria y no se practica el horario de verano. El país está cinco horas por detrás del GMT.</p>
           <div className="flex pt-4 items-center">
-            <p className="text-red-500 font-semibold text-sm cursor-pointer hover:underline">Learn More</p>
+            <p className="text-red-500 font-semibold text-sm cursor-pointer hover:underline">Ver más</p>
             <ChevronRightIcon className="text-red-500 pl-1 w-6"/>
           </div>
           </div>
@@ -459,11 +459,11 @@ export default function Luya() {
             <div className="w-4/5">
             <div className="bg-gray-100 w-1/2 mt-5 rounded-lg border border-gray-100">
             <div>
-                <p className='ml-5 my-5 text-2xl text-black font-bold'>Did this information help you?</p>
+                <p className='ml-5 my-5 text-2xl text-black font-bold'>¿Te ayudó esta información?</p>
             </div>
             <div className="grid grid-cols-2 pb-8">
             <div className="flex">
-            <button className="py-2 px-6 rounded-lg border-gray-500 bg-white text-xl text-red-500 font-bold ml-5 mr-5 hover:bg-gray-300 hover:text-white">Yes</button>
+            <button className="py-2 px-6 rounded-lg border-gray-500 bg-white text-xl text-red-500 font-bold ml-5 mr-5 hover:bg-gray-300 hover:text-white">Sí</button>
             <button className="py-2 px-6 rounded-lg border-gray-500 bg-white text-xl text-red-500 font-bold hover:bg-gray-300 hover:text-white">No</button>
             </div>
             </div>
@@ -473,7 +473,7 @@ export default function Luya() {
           <div className='bg-green-50'>
         <div className='flex justify-center'>
             <div className='w-10/12'>
-                <p className='text-3xl pt-10 font-bold text-gray-800 py-5'>Nearby places</p>
+                <p className='text-3xl pt-10 font-bold text-gray-800 py-5'>Lugares cercanos</p>
             </div>
         </div>
         <div className="flex justify-center">

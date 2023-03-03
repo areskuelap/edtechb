@@ -80,35 +80,35 @@ const Banners = () => {
         <div className='flex'>
         <Link to="/newsmain">
         <div className='flex justify-start'>         
-        <p className="text-4xl font-semibold text-black pb-10">News & Announcement</p>
+        <p className="text-4xl font-semibold text-black pb-10">Noticias & Anuncios</p>
         </div>
         </Link>
         </div>
         <Link to="/newsa">
         <div className='flex pb-5'>
             <button className='px-3 py-2 text-base text-white bg-green-600 rounded-full  hover:bg-green-400'>New</button>
-            <p className='text-black font-semibold text-lg px-4 cursor-pointer'>Kuelap will open to visitors on May 10th</p>
+            <p className='text-black font-semibold text-lg px-4 cursor-pointer'>Quiocta abrirá el 10 de mayo</p>
             <div className='flex justify-end'>
-            <p className='font-semibold'>03/19/2023</p>
+            <p className='font-semibold'>19/02/2023</p>
             </div>
         </div>
         </Link>
         <div className='flex pb-5'>
             <button className='px-3 py-2 text-base text-white bg-green-600 rounded-full hover:bg-green-400'>New</button>
-            <p className='text-black font-semibold text-lg px-4 cursor-pointer'>Kuelap will open to visitors on May 10th</p>
+            <p className='text-black font-semibold text-lg px-4 cursor-pointer'>Nuevas restricciones de ingreso a Amazonas</p>
             <div className='flex justify-end'>
-            <p className='font-semibold'>03/19/2023</p>
+            <p className='font-semibold'>28/02/2023</p>
             </div>
         </div>
         <div className='flex pb-5'>
             <button className='px-3 py-2 text-base text-white bg-green-600 rounded-full  hover:bg-green-400'>New</button>
-            <p className='text-black font-semibold text-lg px-4 cursor-pointer'>Kuelap will open to visitors on May 10th</p>
+            <p className='text-black font-semibold text-lg px-4 cursor-pointer'>Cierre del aeropuerto de Jaén</p>
             <div className='flex justify-end'>
-            <p className='font-semibold'>03/19/2023</p>
+            <p className='font-semibold'>02/02/2023</p>
             </div>
         </div>
         <Link to="/newsmain"><div className='flex justify-start pb-5'>
-        <p className=' font-semibold text-gray-700 cursor-pointer'>More...</p>
+        <p className=' font-semibold text-gray-700 cursor-pointer'>Más...</p>
         </div></Link>
     </div>
       <div className="flex justify-center">

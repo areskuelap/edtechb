@@ -54,23 +54,23 @@ const Footer = () => {
         <div className='w-3/4 grid grid-cols-3'>
           <div>
             <ul>
-              <li className='font-semibold  text-lg text-gray-400 hover:text-white py-5'>Helpful links</li>
-              <a href="https://www.instagram.com/amazo.nas/" rel="noreferrer" target="_blank"><li className='text-lg text-gray-400 hover:text-white cursor-pointer'>Social media partners</li></a>
-              <Link to="/newsmain"><li className='text-lg text-gray-400 hover:text-white py-3 cursor-pointer'>News</li></Link>
+              <li className='font-semibold  text-lg text-gray-400 hover:text-white py-5'>Enlaces útiles</li>
+              <a href="https://www.instagram.com/amazo.nas/" rel="noreferrer" target="_blank"><li className='text-lg text-gray-400 hover:text-white cursor-pointer'>Aliados</li></a>
+              <Link to="/newsmain"><li className='text-lg text-gray-400 hover:text-white py-3 cursor-pointer'>Noticias</li></Link>
             </ul>
           </div>
           <div>
             <ul>
-            <li className='font-semibold  text-lg text-gray-400 hover:text-white py-5'>Related DIRCETUR sites</li>
+            <li className='font-semibold  text-lg text-gray-400 hover:text-white py-5'>Sitios relacionados</li>
             <a href="https://www.gob.pe/mincetur" rel="noreferrer" target="_blank"><li className='text-lg text-gray-400 hover:text-white cursor-pointer'>MINCETUR</li></a>
             <a href="https://peru.info/es-pe/marca-peru" rel="noreferrer" target="_blank"><li className='text-lg text-gray-400 hover:text-white py-3 cursor-pointer'>MARCA PERU</li></a>
             </ul>
           </div>
           <div>
             <ul>
-            <li className='font-semibold  text-lg text-gray-400 hover:text-white py-5'>About DIRCETUR</li>
-            <li className='text-lg text-gray-400 hover:text-white cursor-pointer'>Who we are</li>
-            <li><Link to="/contact" className='text-lg text-gray-400 hover:text-white py-3 cursor-pointer'>Contact us</Link></li>
+            <li className='font-semibold  text-lg text-gray-400 hover:text-white py-5'>Acerca de DIRCETUR</li>
+            <li className='text-lg text-gray-400 hover:text-white cursor-pointer'>Quiénes somos</li>
+            <li><Link to="/contact" className='text-lg text-gray-400 hover:text-white py-3 cursor-pointer'>Contáctanos</Link></li>
             </ul>
           </div>
         </div>
@@ -84,9 +84,9 @@ const Footer = () => {
               <p translate="no" className='font-bold text-2xl text-gray-400 hover:text-white'>Amazonas</p>
             </div>
             <div className='flex justify-center'>
-              <p className='text-lg text-gray-400 hover:text-white px-10 font-semibold cursor-pointer'>Privacy</p>
+              <p className='text-lg text-gray-400 hover:text-white px-10 font-semibold cursor-pointer'>Privacidad</p>
               <p className='text-lg text-gray-400 hover:text-white font-semibold cursor-pointer'>Cookies</p>
-              <p className='text-lg text-gray-400 hover:text-white px-10 font-semibold cursor-pointer'>Links</p>
+              <p className='text-lg text-gray-400 hover:text-white px-10 font-semibold cursor-pointer'>Enlaces</p>
             </div>
             <div className='flex'>
             <a href="https://web.facebook.com/dirceturamazonas1" rel="noreferrer" target="_blank"><FaFacebook className='text-gray-400 hover:text-white cursor-pointer w-16 pl-8 pr-4'/></a>
@@ -95,7 +95,7 @@ const Footer = () => {
             </div>
           </div>
         <div className='flex justify-center bg-black items-center w-full h-40'>
-            <p className="font-bold text-lg text-white">&copy; Dircetur Amazonas. All Rights Reserved</p>
+            <p className="font-bold text-lg text-white">&copy; Dircetur Amazonas. Derechos reservados</p>
         </div>
     </div>
       </div>

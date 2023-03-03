@@ -276,7 +276,7 @@ const Search = () => {
     <div className='bg-cover hidden sm:block bg-[url("https://img.travesiasdigital.com/2020/04/photo-1555854317-bdd208f4adbb-unsplash-dodi-achmat.jpg")]'>
     <div className='mb-5 mt-5 pt-12 flex justify-center'>
     <div className='w-10/12'>
-    <p className='text-white text-4xl font-semibold'>Explore places to visit</p>
+    <p className='text-white text-4xl font-semibold'>Explora las 7 provincias</p>
     </div>
     </div>
     <div className="flex justify-center">

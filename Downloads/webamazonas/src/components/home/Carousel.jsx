@@ -10,7 +10,7 @@ const Carousel = () => {
     <div className='block sm:hidden'>
     <div className='flex justify-center pt-10'>
     <div className=" w-11/12">
-    <p className='pb-5 text-xl flex justify-start font-semibold'>Travel basics</p>
+    <p className='pb-5 text-xl flex justify-start font-semibold'>Información básica</p>
     </div>
     </div>
     <div className="flex mb-3 justify-center">
@@ -24,7 +24,7 @@ const Carousel = () => {
         <p className='font-semibold pb-3 text-base text-black'>VISA</p>
       </div>
       <div>
-        <p className='text-sm font-light text-gray-800'>This is a sample description.</p>
+        <p className='text-sm font-light text-gray-800'>Todo lo que tienes que saber</p>
       </div>
     </div>
     <div className="flex w-1/5 items-center">
@@ -40,10 +40,10 @@ const Carousel = () => {
     </div>
     <div className="mt-5 ml-1 w-3/5">
       <div>
-        <p className='font-semibold pb-3 text-base text-black'>Duty Free & Tax Refunds</p>
+        <p className='font-semibold pb-3 text-base text-black'>Impuestos y tarifas</p>
       </div>
       <div>
-        <p className='text-sm font-light text-gray-800'>This is a sample description.</p>
+        <p className='text-sm font-light text-gray-800'>Revisa la última información</p>
       </div>
     </div>
     <div className="flex w-1/5 items-center">
@@ -58,10 +58,10 @@ const Carousel = () => {
     </div>
     <div className="mt-5 ml-1 w-3/5">
       <div>
-        <p className='font-semibold pb-3 text-base text-black'>Tourist-friendly Amazonas</p>
+        <p className='font-semibold pb-3 text-base text-black'>Amazonas: Turismo amigable</p>
       </div>
       <div>
-        <p className='text-sm font-light text-gray-800'>This is a sample description.</p>
+        <p className='text-sm font-light text-gray-800'>Revisa los beneficios para turistas</p>
       </div>
     </div>
     <div className="flex w-1/5 items-center">
@@ -76,10 +76,10 @@ const Carousel = () => {
     </div>
     <div className="mt-5 ml-1 w-3/5">
       <div>
-        <p className='font-semibold pb-3 text-base text-black'>Transportation</p>
+        <p className='font-semibold pb-3 text-base text-black'>Transporte</p>
       </div>
       <div>
-        <p className='text-sm font-light text-gray-800'>This is a sample description.</p>
+        <p className='text-sm font-light text-gray-800'>Desplazarte hacia y dentro de Amazonas</p>
       </div>
     </div>
     <div className="flex w-1/5 items-center">
@@ -91,7 +91,7 @@ const Carousel = () => {
     <div className='bg-white hidden sm:block'>
     <div className='flex justify-center pt-10'>
     <div className=" w-10/12">
-    <p className='pb-10 text-4xl flex justify-start font-semibold'>Travel basics</p>
+    <p className='pb-10 text-4xl flex justify-start font-semibold'>Información básica</p>
     </div>
     </div>
     <div className='flex justify-center'>
@@ -106,7 +106,7 @@ const Carousel = () => {
         <p className='font-semibold pb-3 text-2xl text-black'>VISA</p>
       </div>
       <div>
-        <p className='text-lg text-gray-800'>This is a sample description.</p>
+        <p className='text-lg text-gray-800'>Todo lo que necesitas saber</p>
       </div>
     </div>
     <div className="flex w-1/5 items-center">
@@ -120,10 +120,10 @@ const Carousel = () => {
     </div>
     <div className="mt-5 w-3/5">
       <div>
-        <p className='font-semibold pb-3 text-xl text-black'>Duty Free & Tax Refunds</p>
+        <p className='font-semibold pb-3 text-xl text-black'>Impuestos</p>
       </div>
       <div>
-        <p className='text-lg text-gray-800'>This is a sample description.</p>
+        <p className='text-lg text-gray-800'>Información práctica</p>
       </div>
     </div>
     <div className="flex w-1/5 items-center">
@@ -140,10 +140,10 @@ const Carousel = () => {
     </div>
     <div className="mt-5 w-3/5">
       <div>
-        <p className='font-semibold text-xl pb-3 text-black'>Tourist-friendly Amazonas</p>
+        <p className='font-semibold text-xl pb-3 text-black'>Amazonas: Turismo amigable</p>
       </div>
       <div>
-        <p className='text-lg text-gray-800'>This is a sample description.</p>
+        <p className='text-lg text-gray-800'>Revisa los beneficios para turistas</p>
       </div>
     </div>
     <div className="flex w-1/5 items-center">
@@ -157,10 +157,10 @@ const Carousel = () => {
     </div>
     <div className='mt-5 w-3/5'>
       <div>
-        <p className='font-semibold text-xl text-black pb-3'>Transportation</p>
+        <p className='font-semibold text-xl text-black pb-3'>Transporte</p>
       </div>
       <div>
-        <p className='text-lg text-gray-800'>This is a sample description.</p>
+        <p className='text-lg text-gray-800'>Desplazarte hacia y dentro de Amazonas</p>
       </div>
     </div>
     <div className="flex w-1/5 items-center">

@@ -41,7 +41,7 @@ const Hero = () => {
     <div className='justify-center hidden sm:flex pb-10'>
     <div className="w-10/12">
     <div className="py-5">
-      <p className="text-4xl font-semibold text-black">Popular places</p>
+      <p className="text-4xl font-semibold text-black">Lugares populares</p>
     </div>
     <div className="grid grid-cols-2">
     
@@ -75,24 +75,24 @@ const Hero = () => {
     <div className='grid grid-cols-2'>
     <div>
     <Link to="/vasquezpampa"><div className='mb-3 cursor-pointer hover:scale-110 w-64 h-40 rounded flex items-end bg-cover bg-[url("https://i.natgeofe.com/n/551fadf4-6ec8-4e9f-9d54-2e250f8afa27/13248_square.jpg")]'>
-    <p className='font-bold text-white text-lg pb-4 pl-4'>Swimming</p>
+    <p className='font-bold text-white text-lg pb-4 pl-4'>Tilacancha</p>
     </div></Link>   
     <Link to="/vasquezpampa"><div className='w-64 hover:scale-110 h-40 rounded flex items-end bg-cover bg-[url("https://www.lifeder.com/wp-content/uploads/2019/05/paramo.jpg")]'>
-    <p className='font-bold text-white text-lg pb-4 pl-4'>Swimming</p>
+    <p className='font-bold text-white text-lg pb-4 pl-4'>Coya</p>
     </div></Link>  
     </div>
     <div className=''>
     <Link to="/vasquezpampa"><div className='mb-3 cursor-pointer hover:scale-110 w-64 h-40 rounded flex items-end bg-cover bg-[url("https://www.absolutviajes.com/wp-content/uploads/2021/03/taiga.jpg")]'>
-    <p className='font-bold text-white text-lg pb-4 pl-4'>Swimming</p>
+    <p className='font-bold text-white text-lg pb-4 pl-4'>Karajía</p>
     </div></Link>   
     <Link to="/vasquezpampa"><div className='w-64 cursor-pointer hover:scale-110 h-40 rounded flex items-end bg-cover bg-[url("https://images.takeshape.io/86ce9525-f5f2-4e97-81ba-54e8ce933da7/dev/3f298bf2-ea3c-4014-9033-2e79fa83ed81/710%20East%20Siberian%20taiga%20-%20%D0%98%D0%B3%D0%BE%D1%80%D1%8C%20%D0%A8%D0%BF%D0%B8%D0%BB%D0%B5%D0%BD%D0%BE%D0%BA.jpg?auto=compress%2Cformat&w=1600")]'>
-    <p className='font-bold text-white text-lg pb-4 pl-4'>Swimming</p>
+    <p className='font-bold text-white text-lg pb-4 pl-4'>Pomacochas</p>
     </div></Link>  
     </div>
     </div>
     <div>
     <Link to="/vasquezpampa"><div className='mb-3 cursor-pointer w-[33.5rem] h-[20.8rem] rounded flex items-end bg-cover bg-[url("https://viajesblog.net/wp-content/uploads/2018/05/5b85f6e416e9dbc34fd4dc7af7c473f5-900x600.jpg")]'>
-    <p className='font-bold text-white text-lg pb-4 pl-4'>Swimming</p>
+    <p className='font-bold text-white text-lg pb-4 pl-4'>Mirador del Utcubamba</p>
     </div></Link>  
     </div>
     </div>

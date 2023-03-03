@@ -17,7 +17,7 @@ const Selects = () => {
       <div className='bg-green-50'>
         <div className='flex justify-center'>
             <div className='w-10/12'>
-                <p className='text-3xl font-bold text-gray-800 py-5'>Themed travels</p>
+                <p className='text-3xl font-bold text-gray-800 py-5'>Viajes temáticos</p>
             </div>
         </div>
         <div className="flex justify-center">
@@ -31,7 +31,7 @@ const Selects = () => {
               <p className='text-sm font-bold pt-1 sm:pt-3 pb-1 sm:pb-2 hover:text-green-600 text-gray-700 cursor-pointer'>Sponsored travel</p>
               </div>
               <div className="flex justify-center sm:justify-start">
-              <p className='text-base font-bold text-gray-800 hover:text-green-600 cursor-pointer'>Try the best food and canopying in Bagua</p>
+              <p className='text-base font-bold text-gray-800 hover:text-green-600 cursor-pointer'>Prueba la mejor comida en Bagua</p>
               </div>                           
               </div>
               </div>
@@ -44,7 +44,7 @@ const Selects = () => {
               <p className='text-sm font-bold pt-1 sm:pt-3 pb-1 sm:pb-2 hover:text-green-600 text-gray-700 cursor-pointer'>Sponsored travel</p>
               </div>
               <div className="flex justify-center sm:justify-start">
-              <p className='text-base font-bold text-gray-800 hover:text-green-600 cursor-pointer'>Try local specialties in Rodriguez de Mendoza</p>
+              <p className='text-base font-bold text-gray-800 hover:text-green-600 cursor-pointer'>Los mejores rutas en Rodriguez de Mendoza</p>
               </div>
               </div>
               </div>
@@ -57,7 +57,7 @@ const Selects = () => {
                 <p className='text-sm font-bold pt-1 sm:pt-3 pb-1 sm:pb-2 hover:text-green-600 text-gray-700 cursor-pointer'>Sponsored travel</p>
                 </div>
                 <div className="flex justify-center sm:justify-start">
-                <p className='text-base font-bold text-gray-800 hover:text-green-600 cursor-pointer'>Must do in Chachapoyas</p>
+                <p className='text-base font-bold text-gray-800 hover:text-green-600 cursor-pointer'>Qué hacer en Chachapoyas</p>
                 </div>
               </div>
               </div>
@@ -70,7 +70,7 @@ const Selects = () => {
                 <p className='text-sm font-bold pt-1 sm:pt-3 pb-1 sm:pb-2 hover:text-green-600 text-gray-700 cursor-pointer'>Sponsored travel</p>
                 </div>
                 <div className="flex justify-center sm:justify-start">
-                <p className='text-base font-bold text-gray-800 hover:text-green-600 cursor-pointer'>What to do in Luya Viejo</p>
+                <p className='text-base font-bold text-gray-800 hover:text-green-600 cursor-pointer'>Qué hacer en Luya Viejo</p>
                 </div>
               </div>
               </div>
