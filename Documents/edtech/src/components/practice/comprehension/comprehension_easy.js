@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { CountdownCircleTimer } from 'react-countdown-circle-timer'; 
 
 
-export default function ComprehensionEasy() {
+const ComprehensionEasy = () => {
 
 
 	const sources = [
@@ -304,3 +304,5 @@ export default function ComprehensionEasy() {
     </div>
   )
 }
+
+export default ComprehensionEasy;

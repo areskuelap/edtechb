@@ -3,7 +3,7 @@ import React from "react";
 import { useState, useEffect } from 'react';
 import ReactPlayer from "react-player";
 
-export default function ListeningEasy() {
+const ListeningEasy = () => {
 
 
 	const sources = [
@@ -233,3 +233,5 @@ export default function ListeningEasy() {
     </div>
   )
 }
+
+export default ListeningEasy;

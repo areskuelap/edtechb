@@ -3,7 +3,7 @@ import React from "react";
 import { useState} from 'react';
 import { CountdownCircleTimer } from 'react-countdown-circle-timer'; 
 
-export default function FilloutEasy() {
+const FilloutEasy = () => {
 
   const [showMessage, setShowMessage] = useState(false);
 
@@ -188,3 +188,5 @@ export default function FilloutEasy() {
     </div>
   );
 }
+
+export default FilloutEasy;

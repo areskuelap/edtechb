@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { CountdownCircleTimer } from 'react-countdown-circle-timer'; 
 
 
-export default function Home() {
+const WritingEasy = () => {
 
 	const questions = [
 		{
@@ -289,3 +289,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default WritingEasy;

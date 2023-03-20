@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import React from "react";
-import { useState, useEffect } from 'react';
+import { useState} from 'react';
 import { CountdownCircleTimer } from 'react-countdown-circle-timer';
 
-export default function LiteracyEasy() {
+const LiteracyEasy = () => {
     const [isActive, setIsActive] = useState(false);
     const [isActive1, setIsActive1] = useState(false);
     const [isActive2, setIsActive2] = useState(false);
@@ -234,3 +234,4 @@ return(
     </div>
   );
 }
+export default LiteracyEasy;
