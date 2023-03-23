@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import React from "react";
 import { useState, useEffect } from 'react';
-import ReactPlayer from "react-player";
+import { CountdownCircleTimer } from 'react-countdown-circle-timer'; 
 
-const ListeningHard = () => {
+
+const ComprehensionEasy = () => {
 
 
 	const sources = [
@@ -15,7 +16,11 @@ const ListeningHard = () => {
 			source: "https://drive.google.com/uc?export=view&id=",
 			answer: ""
 		},
-    		{
+		{
+			source: "https://drive.google.com/uc?export=view&id=",
+			answer: ""
+		},
+		{
 			source: "https://drive.google.com/uc?export=view&id=",
 			answer: ""
 		},
@@ -27,19 +32,11 @@ const ListeningHard = () => {
 			source: "https://drive.google.com/uc?export=view&id=",
 			answer: ""
 		},
-    		{
-			source: "https://drive.google.com/uc?export=view&id=",
-			answer: ""
-		},
 		{
 			source: "https://drive.google.com/uc?export=view&id=",
 			answer: ""
 		},
 		{
-			source: "https://drive.google.com/uc?export=view&id=",
-			answer: ""
-		},
-    		{
 			source: "https://drive.google.com/uc?export=view&id=",
 			answer: ""
 		},
@@ -77,7 +74,7 @@ const ListeningHard = () => {
     setButtonText(current => !current);
 	};
   const changeIt = () => {
-    setShowMessage();
+    setShowMessage(false);
     setInputValue("");
     setButtonText("Submit");
     setWordCount(0);
@@ -102,18 +99,28 @@ const ListeningHard = () => {
       </Head>
       <main>
       <div className=''>
+      <div className='flex items-end pt-10 pb-5'>
+      <div className='w-1/2 sm:w-3/4'>
+      </div>
+      <div className='flex'>
+      <p className='font-bolt text-xl pr-4 mt-5'>Time left: </p>
+      <CountdownCircleTimer
+    size={70}
+    isPlaying
+    duration={150}
+    colors={['#f78801','#f78801', '#f78801', '#f78801']}
+    colorsTime={[7, 5, 2, 0]}
+  >
+    {({ remainingTime }) => remainingTime}
+  </CountdownCircleTimer>
+      </div>
+      </div>
       <div className='flex justify-center'>
-        <p className='pb-5 pt-10 w-4/5 sm:w-full text-2xl font-bold text-center'>Type the audio that you hear</p>
+        <p className='pb-5 w-4/5 sm:w-full text-2xl font-bold text-center'>Write one or more sentences that describe the photo</p>
       </div>
       <div className='flex justify-center'>
       <div className="pb-10 flex w-3/4 sm:w-1/3 flex justify-center">
-      <ReactPlayer
-        url={sources[currentQuestion].source}
-        width="250px"
-        height="80px"
-        playing={false}
-        controls={true}
-      />
+        <img className='rounded-lg' src={sources[currentQuestion].source} alt="image"/>
         </div>
         </div>
         <div className='flex justify-center'>
@@ -126,14 +133,14 @@ const ListeningHard = () => {
     ></textarea>
      </div>
      </div>
-     <div className='flex justify-center w-2/5 sm:w-2/3'>
+      <div className='flex justify-center w-2/5 sm:w-2/3'>
       <div className='pt-3'>
-      <p className='text-lg font-bold'>Word count: {wordCount}</p>
+      <p className='text-lg'>Word count: {wordCount}</p>
       </div>
       </div>
       <div className='flex justify-center'>
         {showMessage && <div className='w-3/4 sm:w-2/5 pt-5 pb-5'>
-          <p className='text-xl font-bold'>Answer</p>
+          <p className='text-xl font-bold'>Sample answer</p>
           <p className='text-lg text-left'>{sources[currentQuestion].answer}</p>
         </div>}
       </div>
@@ -151,4 +158,4 @@ const ListeningHard = () => {
   )
 }
 
-export default ListeningHard;
+export default ComprehensionEasy;

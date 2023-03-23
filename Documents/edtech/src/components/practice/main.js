@@ -24,7 +24,7 @@ const Main = () => {
               className={`px-8 py-2 font-semibold hover:bg-yellow-400 hover:text-white mr-2 rounded ${
                 selectedSection.id === section.id
                   ? 'bg-yellow-400 text-white'
-                  : 'bg-white text-yellow-400 border border-yellow-400'
+                  : 'bg-white text-yellow-400 border my-2 sm:my-0 border-yellow-400'
               }`}
               onClick={() => setSelectedSection(section)}
             >
@@ -54,13 +54,13 @@ function Listening() {
               <h2 className="text-xl font-semibold">Test Section</h2>
               <p className="text-gray-600">Here you can practice listening skills through our tests.</p>
               <Link to="/listeningeasy"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 mx-6 text-white font-bold py-2 px-4 rounded">Easy</button></Link>
-              <Link to="/listeningeasy"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded">Medium</button></Link>
-              <Link to="/listeningeasy"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 mx-6 text-white font-bold py-2 px-4 rounded">Hard</button></Link>
+              <Link to="/listeningmedium"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded">Medium</button></Link>
+              <Link to="/listeninghard"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 mx-6 text-white font-bold py-2 px-4 rounded">Hard</button></Link>
             </div>
             <div className="lectures-section">
               <h2 className="text-xl font-semibold">Lectures Section</h2>
               <p className="text-gray-600">Improve your listening skills by watching our video lectures.</p>
-              <button className="mt-2 bg-yellow-400 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded">Watch Lectures</button>
+              <Link to="/lectures"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded">Watch Lectures</button></Link>
             </div>
             <div className="documents-section">
               <h2 className="text-xl font-semibold">Documents Section</h2>
@@ -87,8 +87,8 @@ function Writing() {
               <h2 className="text-xl font-semibold">Test Section</h2>
               <p className="text-gray-600">Here you can practice writing skills through our tests.</p>
               <Link to="/writingeasy"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 mx-6 text-white font-bold py-2 px-4 rounded">Easy</button></Link>
-              <Link to="/listeningeasy"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded">Medium</button></Link>
-              <Link to="/listeningeasy"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 mx-6 text-white font-bold py-2 px-4 rounded">Hard</button></Link>
+              <Link to="/writingmedium"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded">Medium</button></Link>
+              <Link to="/writinghard"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 mx-6 text-white font-bold py-2 px-4 rounded">Hard</button></Link>
             </div>
 
             <div className="lectures-section">
@@ -122,8 +122,8 @@ function Comprehension() {
               <h2 className="text-xl font-semibold">Test Section</h2>
               <p className="text-gray-600">Here you can practice comprehension skills through our tests.</p>
               <Link to="/comprehensioneasy"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 mx-6 text-white font-bold py-2 px-4 rounded">Easy</button></Link>
-              <Link to="/listeningeasy"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded">Medium</button></Link>
-              <Link to="/listeningeasy"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 mx-6 text-white font-bold py-2 px-4 rounded">Hard</button></Link>
+              <Link to="/comprehensionmedium"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded">Medium</button></Link>
+              <Link to="/comprehensionhard"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 mx-6 text-white font-bold py-2 px-4 rounded">Hard</button></Link>
             </div>
 
             <div className="lectures-section">
@@ -157,8 +157,8 @@ function Literacy() {
               <h2 className="text-xl font-semibold">Test Section</h2>
               <p className="text-gray-600">Here you can practice literacy skills through our tests.</p>
               <Link to="/literacyeasy"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 mx-6 text-white font-bold py-2 px-4 rounded">Easy</button></Link>
-              <Link to="/listeningeasy"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded">Medium</button></Link>
-              <Link to="/listeningeasy"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 mx-6 text-white font-bold py-2 px-4 rounded">Hard</button></Link>
+              <Link to="/literacymedium"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded">Medium</button></Link>
+              <Link to="/literacyhard"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 mx-6 text-white font-bold py-2 px-4 rounded">Hard</button></Link>
             </div>
 
             <div className="lectures-section">
@@ -192,8 +192,8 @@ function Fillout() {
               <h2 className="text-xl font-semibold">Test Section</h2>
               <p className="text-gray-600">Here you can practice literacy skills through our tests.</p>
               <Link to="/fillouteasy"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 mx-6 text-white font-bold py-2 px-4 rounded">Easy</button></Link>
-              <Link to="/listeningeasy"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded">Medium</button></Link>
-              <Link to="/listeningeasy"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 mx-6 text-white font-bold py-2 px-4 rounded">Hard</button></Link>
+              <Link to="/filloutmedium"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded">Medium</button></Link>
+              <Link to="/fillouthard"><button className="mt-2 bg-yellow-400 hover:bg-yellow-500 mx-6 text-white font-bold py-2 px-4 rounded">Hard</button></Link>
             </div>
 
             <div className="lectures-section">

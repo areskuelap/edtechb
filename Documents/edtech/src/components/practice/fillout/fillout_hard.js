@@ -2,7 +2,7 @@ import Head from 'next/head'
 import React from "react";
 import { useState} from 'react';
 
-const FilloutEasy = () => {
+const FilloutHard = () => {
 
   const [showMessage, setShowMessage] = useState(false);
 
@@ -178,4 +178,4 @@ const FilloutEasy = () => {
   );
 }
 
-export default FilloutEasy;
+export default FilloutHard;

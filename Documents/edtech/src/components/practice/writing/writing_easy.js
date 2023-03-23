@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import React from "react";
 import { useState, useEffect } from 'react';
-import { CountdownCircleTimer } from 'react-countdown-circle-timer'; 
 
 
 const WritingEasy = () => {
@@ -230,16 +229,6 @@ const WritingEasy = () => {
       <div className='w-1/2 sm:w-3/4'>
       </div>
       <div className='flex'>
-      <p className='font-bolt text-xl pr-4 mt-5'>Time left: </p>
-      <CountdownCircleTimer
-    size={70}
-    isPlaying
-    duration={150}
-    colors={['#f78801','#f78801', '#f78801', '#f78801']}
-    colorsTime={[7, 5, 2, 0]}
-  >
-    {({ remainingTime }) => remainingTime}
-  </CountdownCircleTimer>
       </div>
       </div>
       <div className="flex justify-center">

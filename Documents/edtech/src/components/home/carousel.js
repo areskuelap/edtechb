@@ -20,13 +20,13 @@ function Carousel() {
                     </div>
                 </div>
                 <div className='pb-3 bg-white flex justify-start'>
-                <Link to="/main"><p className='text-xl cursor-pointer font-semibold text-black px-3'>Duolingo English Test full course</p></Link>
+                <Link to="/main"><p className='text-xl cursor-pointer text-left  font-semibold text-black px-3'>Duolingo English Test full course</p></Link>
                 </div>
                 <div className='pb-6 bg-white flex '>
-                    <p className='text-base px-3 font-semibold flex justify-start text-gray-800'>Get access to thousands of sample questions, access lecture videos and documents to get ready for the Duolingo English Test</p>
+                    <p className='text-base px-3 font-semibold flex text-left justify-start text-gray-800'>Get access to thousands of sample questions, access lecture videos and documents to get ready for the Duolingo English Test</p>
                 </div>
                 <div className='pb-6 bg-white'>
-                    <p className='text-base font-semibold flex justify-start px-3 text-blue-700'>1 months / 10 hrs/week</p>
+                    <p className='text-base font-semibold flex justify-start text-left px-3 text-blue-700'>1 months / 10 hrs/week</p>
                 </div>
             </div>
         </div>
@@ -45,10 +45,10 @@ function Carousel() {
                     </div>
                 </div>
                 <div className='pb-3 bg-white flex justify-start'>
-                <Link to="/main"><p className='text-xl cursor-pointer font-semibold text-black px-3'>Duolingo English Test full course</p></Link>
+                <Link to="/main"><p className='text-xl cursor-pointer text-left font-semibold text-black px-3'>Duolingo English Test full course</p></Link>
                 </div>
                 <div className='pb-6 bg-white flex '>
-                    <p className='text-base px-3 font-semibold flex justify-start text-gray-800'>Get access to thousands of sample questions, access lecture videos and documents to get ready for the Duolingo English Test</p>
+                    <p className='text-base px-3 font-semibold flex text-left justify-start text-gray-800'>Get access to thousands of sample questions, access lecture videos and documents to get ready for the Duolingo English Test</p>
                 </div>
                 <div className='pb-6 bg-white'>
                     <p className='text-base font-semibold flex justify-start px-3 text-blue-700'>1 months / 10 hrs/week</p>
@@ -70,10 +70,10 @@ function Carousel() {
                     </div>
                 </div>
                 <div className='pb-3 bg-white flex justify-start'>
-                <Link to="/main"><p className='text-xl cursor-pointer font-semibold text-black px-3'>Duolingo English Test full course</p></Link>
+                <Link to="/main"><p className='text-xl cursor-pointer text-left font-semibold text-black px-3'>Duolingo English Test full course</p></Link>
                 </div>
                 <div className='pb-6 bg-white flex '>
-                    <p className='text-base px-3 font-semibold flex justify-start text-gray-800'>Get access to thousands of sample questions, access lecture videos and documents to get ready for the Duolingo English Test</p>
+                    <p className='text-base px-3 font-semibold flex text-left justify-start text-gray-800'>Get access to thousands of sample questions, access lecture videos and documents to get ready for the Duolingo English Test</p>
                 </div>
                 <div className='pb-6 bg-white'>
                     <p className='text-base font-semibold flex justify-start px-3 text-blue-700'>1 months / 10 hrs/week</p>

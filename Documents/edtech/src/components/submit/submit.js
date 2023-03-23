@@ -20,10 +20,10 @@ const Submit = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+    <div className="min-h-screen bg-gray-100 pb-16 flex items-center justify-center">
       <form onSubmit={handleSubmit} className="bg-white py-6 px-24 rounded-lg shadow-md">
       <div className='py-8 flex justify-center'>
-        <p className='text-4xl font-semibold text-gray-800'>Sign Up for a Consultation</p>
+        <p className='text-4xl font-bold text-blue-700'>Sign Up for a Consultation</p>
       </div>
         <div className="mb-4">
           <label className="block text-gray-700">First Name</label>

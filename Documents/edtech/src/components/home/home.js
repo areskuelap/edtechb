@@ -10,7 +10,6 @@ const Home = () => {
         <Courses />
         <Carousel/>
         <Testimonials />
-        <Footer />
       </div>
     )
 }

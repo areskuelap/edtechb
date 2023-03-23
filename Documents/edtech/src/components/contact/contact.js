@@ -1,87 +1,92 @@
 import React, { useState } from 'react';
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
-  });
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
+  const [email, setEmail] = useState('');
+  const [subject, setSubject] = useState('');
+  const [description, setDescription] = useState('');
+  const [attachments, setAttachments] = useState([]);
+  const [category, setCategory] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
+    // Process form submission
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-md w-full space-y-8">
-        <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Contact Us</h2>
-        <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
-          <div className="rounded-md shadow-sm -space-y-px">
-            <div>
-              <label htmlFor="name" className="sr-only">
-                Name
-              </label>
-              <input
-                id="name"
-                name="name"
-                type="text"
-                required
-                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                placeholder="Name"
-                value={formData.name}
-                onChange={handleChange}
-              />
-            </div>
-            <div>
-              <label htmlFor="email" className="sr-only">
-                Email
-              </label>
-              <input
-                id="email"
-                name="email"
-                type="email"
-                required
-                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                placeholder="Email"
-                value={formData.email}
-                onChange={handleChange}
-              />
-            </div>
-          </div>
-
-          <div>
-            <label htmlFor="message" className="sr-only">
-              Message
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              required
-              className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-              placeholder="Message"
-              value={formData.message}
-              onChange={handleChange}
-              rows={4}
-            />
-          </div>
-
-          <div>
-            <button
-              type="submit"
-              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-            >
-              Submit
-            </button>
-          </div>
-        </form>
+      <div className="flex justify-center">
+        <div className='sm:w-3/5 w-full'>
+        <div className="bg-white w-11/12 mx-auto my-10 rounded-lg shadow-md sm:w-full">
+      <h1 className="text-2xl font-semibold text-blue-600 py-6 px-8">Submit a request</h1>
+      <form onSubmit={handleSubmit} className="p-8">
+        <div className="mb-4 grid grid-cols-4 gap-4">
+          <label htmlFor="category" className="block text-gray-700">Category:</label>
+          <select
+            id="category"
+            value={category}
+            onChange={(e) => setCategory(e.target.value)}
+            className="col-span-3 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+          >
+            <option value="">Select a category</option>
+            <option value="active_students">Active Students</option>
+            <option value="enterprise_programs_students">Enterprise Programs Students</option>
+            <option value="government_program_students">Government Program Students</option>
+            <option value="scholarships_students">Scholarships Students</option>
+          </select>
+        </div>
+        <div className="mb-4 grid grid-cols-4 gap-4">
+          <label htmlFor="email" className="block text-gray-700">Email:</label>
+          <input
+            id="email"
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            className="col-span-3 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+            required
+          />
+        </div>
+        <div className="mb-4 grid grid-cols-4 gap-4">
+          <label htmlFor="subject" className="block text-gray-700">Subject:</label>
+          <input
+            id="subject"
+            type="text"
+            value={subject}
+            onChange={(e) => setSubject(e.target.value)}
+            className="col-span-3 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+            required
+          />
+        </div>
+        <div className="mb-4 grid grid-cols-4 gap-4">
+          <label htmlFor="description" className="block text-gray-700">Description:</label>
+          <textarea
+            id="description"
+            value={description}
+            onChange={(e) => setDescription(e.target.value)}
+            className="col-span-3 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+            rows="4"
+            required
+          />
+        </div>
+        <div className="mb-4 grid grid-cols-4 gap-4">
+          <label htmlFor="attachments" className="block text-gray-700">Attachments (optional):</label>
+          <input
+            id="attachments"
+            type="file"
+            multiple
+            onChange={(e) => setAttachments([...e.target.files])}
+            className="col-span-3 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"/>
+</div>
+<button
+       type="submit"
+       className="bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-400"
+     >
+Submit
+</button>
+</form>
+</div>
+        </div>
       </div>
-    </div>
-  );
+    )
 };
 
 export default Contact;

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import React from "react";
 import { useState} from 'react';
+import { CountdownCircleTimer } from 'react-countdown-circle-timer';
 
 const LiteracyEasy = () => {
     const [isActive, setIsActive] = useState(false);
@@ -169,6 +170,16 @@ return(
       <div className='w-1/2 sm:w-3/4'>
       </div>
       <div className='flex'>
+      <p className='font-bolt text-xl pr-4 mt-5'>Time left: </p>
+      <CountdownCircleTimer
+    size={70}
+    isPlaying
+    duration={50}
+    colors={['#f78801','#f78801', '#f78801', '#f78801']}
+    colorsTime={[7, 5, 2, 0]}
+  >
+    {({ remainingTime }) => remainingTime}
+  </CountdownCircleTimer>
       </div>
       </div>
       <div className='pb-5'>
