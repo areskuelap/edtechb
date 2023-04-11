@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "653541485901",
+    "project_id": "appli-e2cc0",
+    "storage_bucket": "appli-e2cc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653541485901:android:e0acc868ea640f6447db04",
+        "android_client_info": {
+          "package_name": "com.example.quizui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653541485901-v8tlphhbococ6rgru7e4hnjdmsebsv16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnlFwPFsVeOpWnHlP7Yek82gwIFRWvQSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653541485901-rt2jlmkkfaip8q7jd83r1afbuic0l2o1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
